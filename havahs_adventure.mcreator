@@ -1803,6 +1803,53 @@
         ]
       },
       "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/models/block/needle_grass.json",
+          "src/main/resources/data/havahs_adventure/neoforge/biome_modifier/needle_grass_biome_modifier.json",
+          "src/main/resources/data/havahs_adventure/worldgen/placed_feature/needle_grass.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/needle_grass.json",
+          "src/main/resources/data/havahs_adventure/worldgen/configured_feature/needle_grass.json",
+          "src/main/java/net/mcreator/havahsadventure/block/NeedleGrassBlock.java",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/needle_grass.json",
+          "src/main/resources/assets/havahs_adventure/models/item/needle_grass.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCuttonSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cutton_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/models/item/needle_cutton_seeds.json",
+          "src/main/java/net/mcreator/havahsadventure/item/NeedleCuttonSeedsItem.java"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleGrassLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_grass_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/needle_grass.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
     }
   ],
   "variable_elements": [],
@@ -1947,7 +1994,9 @@
       "death.attack.light_spiral_damage": "%1$s died",
       "death.attack.light_spiral_damage.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.light_spiral_damage.player": "%1$s died whilst trying to escape %2$s",
-      "block.havahs_adventure.potted_light_spiral": "Potted Light Spiral"
+      "block.havahs_adventure.potted_light_spiral": "Potted Light Spiral",
+      "block.havahs_adventure.needle_grass": "Needle Grass",
+      "item.havahs_adventure.needle_cutton_seeds": "Needle Cutton Seeds"
     }
   },
   "metadata": {
