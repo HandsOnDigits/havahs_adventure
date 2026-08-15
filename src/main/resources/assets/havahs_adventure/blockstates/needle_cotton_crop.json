@@ -1,15 +1,15 @@
 {
   "variants": {
-    "groth=0": {
+    "growth=0": {
       "model": "havahs_adventure:block/needle_cotton_crop_0"
     },
-    "groth=1": {
+    "growth=1": {
       "model": "havahs_adventure:block/needle_cotton_crop_1"
     },
-    "groth=2": {
+    "growth=2": {
       "model": "havahs_adventure:block/needle_cotton_crop_2"
     },
-    "groth=3": {
+    "growth=3": {
       "model": "havahs_adventure:block/needle_cotton_crop_3"
     }
   }
