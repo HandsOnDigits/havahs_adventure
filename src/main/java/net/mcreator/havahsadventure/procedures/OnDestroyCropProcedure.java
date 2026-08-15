@@ -45,7 +45,7 @@ public class OnDestroyCropProcedure {
 			return;
 		if (getEntityGameType(entity) == GameType.SURVIVAL) {
 			if (blockstate.getBlock() == HavahsAdventureModBlocks.NEEDLE_COTTON_CROP.get()) {
-				if ((getPropertyByName(blockstate, "groth") instanceof IntegerProperty _getip4 ? blockstate.getValue(_getip4) : -1) >= 3) {
+				if ((getPropertyByName(blockstate, "growth") instanceof IntegerProperty _getip4 ? blockstate.getValue(_getip4) : -1) >= 3) {
 					if (!world.isClientSide() && world.getServer() != null) {
 						for (ItemStack itemstackiterator : world.getServer().reloadableRegistries().getLootTable(ResourceKey.create(Registries.LOOT_TABLE, ResourceLocation.parse("havahs_adventure:gameplay/needle_cotton_crop")))
 								.getRandomItems(new LootParams.Builder((ServerLevel) world).create(LootContextParamSets.EMPTY))) {
