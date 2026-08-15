@@ -1883,7 +1883,7 @@
           "src/main/resources/assets/havahs_adventure/models/item/needle_cotton_fibers.json"
         ]
       },
-      "path": "~/Blocks/Plants"
+      "path": "~/Items"
     },
     {
       "name": "NeedleCottonCropNeighbourBlockChanges",
