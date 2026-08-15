@@ -2123,12 +2123,10 @@
       "CUSTOM:LightSpiral"
     ],
     "ITEMS:c:crops": [
-      "CUSTOM:NeedleCottonSeed",
-      "CUSTOM:Skyroot"
+      "CUSTOM:NeedleCottonSeed"
     ],
     "BLOCKS:c:crops": [
-      "CUSTOM:NeedleCottonCrop",
-      "CUSTOM:Skyroot"
+      "CUSTOM:NeedleCottonCrop"
     ]
   },
   "tab_element_order": {},
