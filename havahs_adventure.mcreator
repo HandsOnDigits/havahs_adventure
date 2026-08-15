@@ -2125,7 +2125,9 @@
     "BLOCKS:minecraft:crops": [
       "CUSTOM:NeedleCottonCrop"
     ],
-    "ITEMS:minecraft:crops": []
+    "ITEMS:minecraft:crops": [
+      "CUSTOM:NeedleCottonSeed"
+    ]
   },
   "tab_element_order": {},
   "language_map": {
