@@ -1855,7 +1855,7 @@
       "name": "NeedleCottonCrop",
       "type": "block",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "needle_cotton_crop",
       "metadata": {
         "files": [
@@ -2046,6 +2046,29 @@
         ],
         "files": [
           "src/main/java/net/mcreator/havahsadventure/procedures/NeedleCottonCropOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonCropOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "needle_cotton_crop_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/NeedleCottonCropOnBlockRightclickedProcedure.java"
         ]
       },
       "path": "~/Blocks/Plants"
