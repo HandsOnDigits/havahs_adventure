@@ -42,7 +42,7 @@
             "property": {
               "min": 0,
               "max": 3,
-              "name": "CUSTOM:groth",
+              "name": "CUSTOM:growth",
               "type": "integer"
             },
             "value": 0
@@ -76,7 +76,7 @@
             "property": {
               "min": 0,
               "max": 3,
-              "name": "CUSTOM:groth",
+              "name": "CUSTOM:growth",
               "type": "integer"
             },
             "value": 1
@@ -110,7 +110,7 @@
             "property": {
               "min": 0,
               "max": 3,
-              "name": "CUSTOM:groth",
+              "name": "CUSTOM:growth",
               "type": "integer"
             },
             "value": 2
@@ -144,7 +144,7 @@
             "property": {
               "min": 0,
               "max": 3,
-              "name": "CUSTOM:groth",
+              "name": "CUSTOM:growth",
               "type": "integer"
             },
             "value": 3
@@ -178,7 +178,7 @@
       {
         "min": 0,
         "max": 3,
-        "name": "CUSTOM:groth",
+        "name": "CUSTOM:growth",
         "type": "integer",
         "value": 0
       }
@@ -282,6 +282,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "NeedleCottonCropOnBlockRightclicked"
+    },
     "onNeighbourBlockChanges": {
       "name": "NeedleCottonCropNeighbourBlockChanges"
     },
