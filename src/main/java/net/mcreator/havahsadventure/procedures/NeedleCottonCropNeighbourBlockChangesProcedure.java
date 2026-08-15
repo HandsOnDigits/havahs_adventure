@@ -21,7 +21,7 @@ public class NeedleCottonCropNeighbourBlockChangesProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate) {
 		if (!((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.FARMLAND)) {
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
-			if ((getPropertyByName(blockstate, "groth") instanceof IntegerProperty _getip4 ? blockstate.getValue(_getip4) : -1) >= 3) {
+			if ((getPropertyByName(blockstate, "growth") instanceof IntegerProperty _getip4 ? blockstate.getValue(_getip4) : -1) >= 3) {
 				if (!world.isClientSide() && world.getServer() != null) {
 					for (ItemStack itemstackiterator : world.getServer().reloadableRegistries().getLootTable(ResourceKey.create(Registries.LOOT_TABLE, ResourceLocation.parse("havahs_adventure:gameplay/needle_cotton_crop")))
 							.getRandomItems(new LootParams.Builder((ServerLevel) world).create(LootContextParamSets.EMPTY))) {
