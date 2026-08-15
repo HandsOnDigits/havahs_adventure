@@ -1825,20 +1825,6 @@
       "path": "~/Blocks/Plants"
     },
     {
-      "name": "NeedleCuttonSeeds",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "needle_cutton_seeds",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/havahs_adventure/models/item/needle_cutton_seeds.json",
-          "src/main/java/net/mcreator/havahsadventure/item/NeedleCuttonSeedsItem.java"
-        ]
-      },
-      "path": "~/Blocks/Plants"
-    },
-    {
       "name": "NeedleGrassLoot",
       "type": "loottable",
       "compiles": true,
@@ -1847,6 +1833,219 @@
       "metadata": {
         "files": [
           "src/main/resources/data/havahs_adventure/loot_table/blocks/needle_grass.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonSeed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_seed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/item/NeedleCottonSeedItem.java",
+          "src/main/resources/assets/havahs_adventure/models/item/needle_cotton_seed.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonCrop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/models/block/needle_cotton_crop_3.json",
+          "src/main/java/net/mcreator/havahsadventure/block/NeedleCottonCropBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/needle_cotton_crop_2.json",
+          "src/main/resources/assets/havahs_adventure/models/block/needle_cotton_crop_0.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/needle_cotton_crop.json",
+          "src/main/resources/assets/havahs_adventure/models/block/needle_cotton_crop_1.json",
+          "src/main/resources/assets/havahs_adventure/models/block/needle_cotton_crop.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/needle_cotton_crop.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonFibers",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_fibers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/item/NeedleCottonFibersItem.java",
+          "src/main/resources/assets/havahs_adventure/models/item/needle_cotton_fibers.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonCropNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_crop_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/NeedleCottonCropNeighbourBlockChangesProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonSeedRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_seed_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/NeedleCottonSeedRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "OnDestroyCrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_destroy_crop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/OnDestroyCropProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonCropLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_crop_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/gameplay/needle_cotton_crop.json"
+        ]
+      },
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonCropOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_crop_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/NeedleCottonCropOnTickUpdateProcedure.java"
         ]
       },
       "path": "~/Blocks/Plants"
@@ -1996,7 +2195,12 @@
       "death.attack.light_spiral_damage.player": "%1$s died whilst trying to escape %2$s",
       "block.havahs_adventure.potted_light_spiral": "Potted Light Spiral",
       "block.havahs_adventure.needle_grass": "Needle Grass",
-      "item.havahs_adventure.needle_cutton_seeds": "Needle Cutton Seeds"
+      "item.havahs_adventure.needle_cutton_seeds": "Needle Cutton Seeds",
+      "block.havahs_adventure.needle_cutton": "Needle Cutton",
+      "item.havahs_adventure.needle_cutton_fibers": "Needle Cutton Fibers",
+      "item.havahs_adventure.needle_cotton_seed": "Needle Cotton Seed",
+      "block.havahs_adventure.needle_cotton_crop": "Needle Cotton Crop",
+      "item.havahs_adventure.needle_cotton_fibers": "Needle Cotton Fibers"
     }
   },
   "metadata": {

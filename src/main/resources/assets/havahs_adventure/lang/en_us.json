@@ -91,5 +91,10 @@
   "death.attack.light_spiral_damage.player": "%1$s died whilst trying to escape %2$s",
   "block.havahs_adventure.potted_light_spiral": "Potted Light Spiral",
   "block.havahs_adventure.needle_grass": "Needle Grass",
-  "item.havahs_adventure.needle_cutton_seeds": "Needle Cutton Seeds"
+  "item.havahs_adventure.needle_cutton_seeds": "Needle Cutton Seeds",
+  "block.havahs_adventure.needle_cutton": "Needle Cutton",
+  "item.havahs_adventure.needle_cutton_fibers": "Needle Cutton Fibers",
+  "item.havahs_adventure.needle_cotton_seed": "Needle Cotton Seed",
+  "block.havahs_adventure.needle_cotton_crop": "Needle Cotton Crop",
+  "item.havahs_adventure.needle_cotton_fibers": "Needle Cotton Fibers"
 }

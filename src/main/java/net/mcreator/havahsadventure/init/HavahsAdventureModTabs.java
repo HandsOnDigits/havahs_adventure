@@ -43,7 +43,8 @@ public class HavahsAdventureModTabs {
 				tabData.accept(HavahsAdventureModItems.SKYROOT_FRUIT.get());
 				tabData.accept(HavahsAdventureModBlocks.LIGHT_SPIRAL.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.NEEDLE_GRASS.get().asItem());
-				tabData.accept(HavahsAdventureModItems.NEEDLE_CUTTON_SEEDS.get());
+				tabData.accept(HavahsAdventureModItems.NEEDLE_COTTON_SEED.get());
+				tabData.accept(HavahsAdventureModItems.NEEDLE_COTTON_FIBERS.get());
 			}).build());
 
 	@SubscribeEvent
@@ -68,6 +69,7 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModItems.LIGHT_CRYSTAL.get());
 			tabData.accept(HavahsAdventureModItems.EYE_BANNER_PATTERN.get());
 			tabData.accept(HavahsAdventureModItems.SKYROOT_FRUIT.get());
+			tabData.accept(HavahsAdventureModItems.NEEDLE_COTTON_FIBERS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(HavahsAdventureModItems.ABOVE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {

@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:NeedleCuttonSeeds"
+              "value": "CUSTOM:NeedleCottonSeed"
             },
             "weight": 1,
             "minCount": 0,

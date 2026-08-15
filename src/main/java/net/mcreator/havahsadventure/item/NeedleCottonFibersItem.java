@@ -2,8 +2,8 @@ package net.mcreator.havahsadventure.item;
 
 import net.minecraft.world.item.Item;
 
-public class NeedleCuttonSeedsItem extends Item {
-	public NeedleCuttonSeedsItem() {
+public class NeedleCottonFibersItem extends Item {
+	public NeedleCottonFibersItem() {
 		super(new Item.Properties());
 	}
 }

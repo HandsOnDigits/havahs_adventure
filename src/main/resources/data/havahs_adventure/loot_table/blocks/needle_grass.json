@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "havahs_adventure:needle_cutton_seeds",
+          "name": "havahs_adventure:needle_cotton_seed",
           "weight": 1,
           "functions": [
             {

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "groth=0": {
+      "model": "havahs_adventure:block/needle_cotton_0"
+    },
+    "groth=1": {
+      "model": "havahs_adventure:block/needle_cotton_1"
+    },
+    "groth=2": {
+      "model": "havahs_adventure:block/needle_cotton_2"
+    },
+    "groth=3": {
+      "model": "havahs_adventure:block/needle_cotton_3"
+    }
+  }
+}

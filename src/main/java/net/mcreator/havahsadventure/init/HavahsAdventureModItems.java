@@ -39,7 +39,8 @@ public class HavahsAdventureModItems {
 	public static final DeferredItem<Item> LIGHT_SPIRAL;
 	public static final DeferredItem<Item> POTTED_LIGHT_SPIRAL;
 	public static final DeferredItem<Item> NEEDLE_GRASS;
-	public static final DeferredItem<Item> NEEDLE_CUTTON_SEEDS;
+	public static final DeferredItem<Item> NEEDLE_COTTON_SEED;
+	public static final DeferredItem<Item> NEEDLE_COTTON_FIBERS;
 	static {
 		ABOVE_BLOCK = block(HavahsAdventureModBlocks.ABOVE_BLOCK, new Item.Properties().fireResistant());
 		FINEL_KEY = REGISTRY.register("finel_key", FinelKeyItem::new);
@@ -63,7 +64,8 @@ public class HavahsAdventureModItems {
 		LIGHT_SPIRAL = block(HavahsAdventureModBlocks.LIGHT_SPIRAL, new Item.Properties().fireResistant());
 		POTTED_LIGHT_SPIRAL = block(HavahsAdventureModBlocks.POTTED_LIGHT_SPIRAL);
 		NEEDLE_GRASS = block(HavahsAdventureModBlocks.NEEDLE_GRASS);
-		NEEDLE_CUTTON_SEEDS = REGISTRY.register("needle_cutton_seeds", NeedleCuttonSeedsItem::new);
+		NEEDLE_COTTON_SEED = REGISTRY.register("needle_cotton_seed", NeedleCottonSeedItem::new);
+		NEEDLE_COTTON_FIBERS = REGISTRY.register("needle_cotton_fibers", NeedleCottonFibersItem::new);
 	}
 
 	// Start of user code block custom items

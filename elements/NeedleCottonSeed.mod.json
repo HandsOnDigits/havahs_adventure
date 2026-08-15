@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "needle_cutton_seeds",
+    "texture": "needle_cotton_seeds",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Needle Cutton Seeds",
+    "name": "Needle Cotton Seed",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -44,6 +44,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
+    "onRightClickedOnBlock": {
+      "name": "NeedleCottonSeedRightclickedOnBlock"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
