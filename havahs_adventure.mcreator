@@ -2122,11 +2122,13 @@
     "ITEMS:minecraft:small_flowers": [
       "CUSTOM:LightSpiral"
     ],
-    "BLOCKS:minecraft:crops": [
-      "CUSTOM:NeedleCottonCrop"
+    "ITEMS:c:crops": [
+      "CUSTOM:NeedleCottonSeed",
+      "CUSTOM:Skyroot"
     ],
-    "ITEMS:minecraft:crops": [
-      "CUSTOM:NeedleCottonSeed"
+    "BLOCKS:c:crops": [
+      "CUSTOM:NeedleCottonCrop",
+      "CUSTOM:Skyroot"
     ]
   },
   "tab_element_order": {},
