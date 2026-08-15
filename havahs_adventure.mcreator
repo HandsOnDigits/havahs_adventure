@@ -2122,7 +2122,10 @@
     "ITEMS:minecraft:small_flowers": [
       "CUSTOM:LightSpiral"
     ],
-    "BLOCKS:minecraft:crops": []
+    "BLOCKS:minecraft:crops": [
+      "CUSTOM:NeedleCottonCrop"
+    ],
+    "ITEMS:minecraft:crops": []
   },
   "tab_element_order": {},
   "language_map": {
