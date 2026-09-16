@@ -110,5 +110,6 @@
   "block.havahs_adventure.gray_above_planks_fence": "Gray Above Wood Fence",
   "block.havahs_adventure.gray_above_planks_fence_gate": "Gray Above Wood Fence Gate",
   "block.havahs_adventure.gray_above_planks_pressure_plate": "Gray Above Planks Pressure Plate",
-  "block.havahs_adventure.gray_above_wood_trapdoor": "Gray Above Wood Trapdoor"
+  "block.havahs_adventure.gray_above_wood_trapdoor": "Gray Above Wood Trapdoor",
+  "block.havahs_adventure.above_block_wall": "Above Block Wall"
 }

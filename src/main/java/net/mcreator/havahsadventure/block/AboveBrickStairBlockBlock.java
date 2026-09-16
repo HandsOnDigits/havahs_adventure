@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class AboveBrickStairBlockBlock extends StairBlock {
 	public AboveBrickStairBlockBlock() {
-		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().strength(3f, 100f));
+		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().strength(3f, 100f).requiresCorrectToolForDrops());
 	}
 
 	@Override

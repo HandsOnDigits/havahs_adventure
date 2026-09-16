@@ -2362,6 +2362,39 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "AboveBlockWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_block_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/above_block_wall.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_wall_post.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_wall.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_wall_inventory.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_wall_side_tall.json",
+          "src/main/java/net/mcreator/havahsadventure/block/AboveBlockWallBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/item/above_block_wall.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/above_block_wall.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AboveBlockWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_block_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/above_block_wall_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -2390,6 +2423,7 @@
       "~CUSTOM:AboveDirt"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AboveBlockWall",
       "~CUSTOM:AboveBrickSlabBlock",
       "~CUSTOM:AboveBrickStairBlock",
       "~CUSTOM:LightCrystalBlock",
@@ -2458,9 +2492,22 @@
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
       "~CUSTOM:GrayAboveTrapdoor"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:AboveBlockWall"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:LightCrystalBlock"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "REDSTONE": [
+      "GrayAbovePlanksDoor",
+      "GrayAbovePlanksFenceGate",
+      "GrayAboveTrapdoor",
+      "GrayAbovePlanksPressurePlate"
+    ]
+  },
   "language_map": {
     "en_us": {
       "block.havahs_adventure.above_block": "Above Block",
@@ -2574,7 +2621,8 @@
       "block.havahs_adventure.gray_above_planks_fence": "Gray Above Wood Fence",
       "block.havahs_adventure.gray_above_planks_fence_gate": "Gray Above Wood Fence Gate",
       "block.havahs_adventure.gray_above_planks_pressure_plate": "Gray Above Planks Pressure Plate",
-      "block.havahs_adventure.gray_above_wood_trapdoor": "Gray Above Wood Trapdoor"
+      "block.havahs_adventure.gray_above_wood_trapdoor": "Gray Above Wood Trapdoor",
+      "block.havahs_adventure.above_block_wall": "Above Brick Block Wall"
     }
   },
   "metadata": {

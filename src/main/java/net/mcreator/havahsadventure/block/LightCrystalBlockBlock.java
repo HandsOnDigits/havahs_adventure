@@ -16,7 +16,7 @@ import net.mcreator.havahsadventure.procedures.LightCrystalBlockOnTickUpdateProc
 
 public class LightCrystalBlockBlock extends Block {
 	public LightCrystalBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.AMETHYST).strength(2f, 100f).lightLevel(blockstate -> 15));
+		super(BlockBehaviour.Properties.of().sound(SoundType.AMETHYST).strength(2f, 100f).lightLevel(blockstate -> 15).requiresCorrectToolForDrops());
 	}
 
 	@Override

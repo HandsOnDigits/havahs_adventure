@@ -5,6 +5,6 @@ import net.minecraft.world.level.block.SlabBlock;
 
 public class AboveBrickSlabBlockBlock extends SlabBlock {
 	public AboveBrickSlabBlockBlock() {
-		super(BlockBehaviour.Properties.of().strength(3f, 100f));
+		super(BlockBehaviour.Properties.of().strength(3f, 100f).requiresCorrectToolForDrops());
 	}
 }

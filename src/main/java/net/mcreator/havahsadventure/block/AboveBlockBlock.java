@@ -9,7 +9,7 @@ import net.minecraft.core.BlockPos;
 
 public class AboveBlockBlock extends Block {
 	public AboveBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.WOOL).strength(1.05f, 100f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.WOOL).strength(1.05f, 100f).requiresCorrectToolForDrops());
 	}
 
 	@Override

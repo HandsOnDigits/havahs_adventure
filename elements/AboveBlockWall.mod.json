@@ -2,14 +2,14 @@
   "_fv": 85,
   "_type": "block",
   "definition": {
-    "texture": "above_dirt",
-    "textureTop": "above_grass_block_top",
-    "textureLeft": "above_grass_block_side",
-    "textureFront": "above_grass_block_side",
+    "texture": "above_brick_block",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 14,
-    "customModelName": "Grass block",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,13 +18,14 @@
     "animations": [],
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Wall",
     "blockSetType": "OAK",
     "leavesParticleChance": 0.0,
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -38,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Above Grass Block",
+    "name": "Above Brick Block Wall",
     "specialInformation": {
       "fixedValue": []
     },
@@ -52,13 +53,13 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "DECORATIONS"
+        "value": "CUSTOM:HavahsAdventure"
       },
       {
-        "value": "CUSTOM:HavahsAdventure"
+        "value": "BUILDING_BLOCKS"
       }
     ],
-    "destroyTool": "shovel",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -66,12 +67,12 @@
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "hasCustomOpacity": true,
-    "lightOpacity": 0,
+    "hasCustomOpacity": false,
+    "lightOpacity": 15,
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
@@ -80,7 +81,7 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "harp",
+    "noteBlockInstrument": "xylophone",
     "creativePickItem": {
       "value": ""
     },
@@ -100,7 +101,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WET_GRASS"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

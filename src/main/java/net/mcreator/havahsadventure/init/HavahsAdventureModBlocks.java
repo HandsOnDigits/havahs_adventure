@@ -40,6 +40,7 @@ public class HavahsAdventureModBlocks {
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_FENCE;
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_FENCE_GATE;
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> ABOVE_BLOCK_WALL;
 	static {
 		ABOVE_BLOCK = REGISTRY.register("above_block", AboveBlockBlock::new);
 		ABOVE_BRICK_BLOCK = REGISTRY.register("above_brick_block", AboveBrickBlockBlock::new);
@@ -68,6 +69,7 @@ public class HavahsAdventureModBlocks {
 		GRAY_ABOVE_PLANKS_FENCE = REGISTRY.register("gray_above_planks_fence", GrayAbovePlanksFenceBlock::new);
 		GRAY_ABOVE_PLANKS_FENCE_GATE = REGISTRY.register("gray_above_planks_fence_gate", GrayAbovePlanksFenceGateBlock::new);
 		GRAY_ABOVE_PLANKS_PRESSURE_PLATE = REGISTRY.register("gray_above_planks_pressure_plate", GrayAbovePlanksPressurePlateBlock::new);
+		ABOVE_BLOCK_WALL = REGISTRY.register("above_block_wall", AboveBlockWallBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

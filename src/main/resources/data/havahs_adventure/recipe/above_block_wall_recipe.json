@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "havahs_adventure:above_block"
+    }
+  },
+  "result": {
+    "id": "havahs_adventure:above_block_wall",
+    "count": 6
+  }
+}
