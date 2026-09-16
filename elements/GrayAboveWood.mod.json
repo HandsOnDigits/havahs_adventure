@@ -87,7 +87,7 @@
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "strippingResult": {
-      "value": "CUSTOM:StrippedGrayAboveLog"
+      "value": "CUSTOM:StrippedGrayAboveWood"
     },
     "ignitedByLava": true,
     "flammability": 5,

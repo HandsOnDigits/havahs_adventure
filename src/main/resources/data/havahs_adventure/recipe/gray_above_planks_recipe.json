@@ -3,7 +3,7 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "havahs_adventure:gray_above_log"
+      "tag": "havahs_adventure:gray_above_logs"
     }
   ],
   "result": {

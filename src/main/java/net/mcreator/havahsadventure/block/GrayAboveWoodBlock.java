@@ -58,7 +58,7 @@ public class GrayAboveWoodBlock extends Block {
 	@Override
 	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
 		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
-			return HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG.get().withPropertiesOf(blockstate);
+			return HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD.get().withPropertiesOf(blockstate);
 		}
 		return super.getToolModifiedState(blockstate, context, itemAbility, simulate);
 	}

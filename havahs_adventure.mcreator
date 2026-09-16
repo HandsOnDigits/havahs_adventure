@@ -2231,6 +2231,33 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "StrippedGrayAboveWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_gray_above_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/advancement/recipes/stripped_gray_above_wood_recipe.json",
+          "src/main/resources/data/havahs_adventure/recipe/stripped_gray_above_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAboveWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2301,6 +2328,12 @@
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
       "~CUSTOM:GrayAboveTrapdoor"
+    ],
+    "BLOCKS:mod:gray_above_logs": [
+      "CUSTOM:GrayAboveLog",
+      "CUSTOM:StrippedGrayAboveLog",
+      "CUSTOM:StrippedGrayAboveWood",
+      "CUSTOM:GrayAboveWood"
     ]
   },
   "tab_element_order": {},

@@ -3,33 +3,29 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 3,
     "group": "",
-    "unlockingItems": [
-      {
-        "value": "CUSTOM:GrayAboveLog"
-      }
-    ],
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
-    "recipeShapeless": true,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:GrayAboveLog"
+      },
+      {
+        "value": "CUSTOM:GrayAboveLog"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:GrayAboveLog"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "TAG:mod:gray_above_logs"
+        "value": "CUSTOM:GrayAboveLog"
       },
       {
         "value": ""
@@ -45,9 +41,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GrayAbovePlanks"
+      "value": "CUSTOM:GrayAboveWood"
     },
-    "name": "gray_above_planks_recipe",
+    "name": "gray_above_wood_recipe",
     "namespace": "mod"
   }
 }
