@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "havahs_adventure:above_block"
+      "item": "havahs_adventure:above_brick_block"
     }
   },
   "result": {
-    "id": "havahs_adventure:above_block_wall",
+    "id": "havahs_adventure:above_brick_block_wall",
     "count": 6
   }
 }

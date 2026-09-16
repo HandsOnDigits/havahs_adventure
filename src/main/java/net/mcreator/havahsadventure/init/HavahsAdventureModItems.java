@@ -56,7 +56,7 @@ public class HavahsAdventureModItems {
 	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_FENCE;
 	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_FENCE_GATE;
 	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_PRESSURE_PLATE;
-	public static final DeferredItem<Item> ABOVE_BLOCK_WALL;
+	public static final DeferredItem<Item> ABOVE_BRICK_BLOCK_WALL;
 	static {
 		ABOVE_BLOCK = block(HavahsAdventureModBlocks.ABOVE_BLOCK, new Item.Properties().fireResistant());
 		FINEL_KEY = REGISTRY.register("finel_key", FinelKeyItem::new);
@@ -96,7 +96,7 @@ public class HavahsAdventureModItems {
 		GRAY_ABOVE_PLANKS_FENCE = block(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE);
 		GRAY_ABOVE_PLANKS_FENCE_GATE = block(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE);
 		GRAY_ABOVE_PLANKS_PRESSURE_PLATE = block(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE);
-		ABOVE_BLOCK_WALL = block(HavahsAdventureModBlocks.ABOVE_BLOCK_WALL);
+		ABOVE_BRICK_BLOCK_WALL = block(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK_WALL);
 	}
 
 	// Start of user code block custom items

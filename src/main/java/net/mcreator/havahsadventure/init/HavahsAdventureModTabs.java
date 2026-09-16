@@ -58,7 +58,7 @@ public class HavahsAdventureModTabs {
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE.get().asItem());
-				tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_WALL.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK_WALL.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -89,7 +89,7 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_WALL.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK_WALL.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.LIGHT_CRYSTAL_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

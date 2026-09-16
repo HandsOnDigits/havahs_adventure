@@ -187,6 +187,7 @@
       "registry_name": "above_brick_stair_block_crafting",
       "metadata": {
         "files": [
+          "src/main/resources/data/havahs_adventure/advancement/recipes/above_brick_stair_block_crafting.json",
           "src/main/resources/data/havahs_adventure/recipe/above_brick_stair_block_crafting.json"
         ]
       },
@@ -219,6 +220,7 @@
       "registry_name": "above_brick_slab_block_crafting",
       "metadata": {
         "files": [
+          "src/main/resources/data/havahs_adventure/advancement/recipes/above_brick_slab_block_crafting.json",
           "src/main/resources/data/havahs_adventure/recipe/above_brick_slab_block_crafting.json"
         ]
       },
@@ -232,6 +234,7 @@
       "registry_name": "above_brick_block_crafting",
       "metadata": {
         "files": [
+          "src/main/resources/data/havahs_adventure/advancement/recipes/above_brick_block_crafting.json",
           "src/main/resources/data/havahs_adventure/recipe/above_brick_block_crafting.json"
         ]
       },
@@ -2364,34 +2367,35 @@
       "path": "~/Blocks/Plants/Trees"
     },
     {
-      "name": "AboveBlockWall",
+      "name": "AboveBrickBlockWall",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "above_block_wall",
+      "registry_name": "above_brick_block_wall",
       "metadata": {
         "files": [
-          "src/main/resources/data/havahs_adventure/loot_table/blocks/above_block_wall.json",
-          "src/main/resources/assets/havahs_adventure/models/block/above_block_wall_post.json",
-          "src/main/resources/assets/havahs_adventure/models/block/above_block_wall.json",
-          "src/main/resources/assets/havahs_adventure/models/block/above_block_wall_inventory.json",
-          "src/main/resources/assets/havahs_adventure/models/block/above_block_wall_side_tall.json",
-          "src/main/java/net/mcreator/havahsadventure/block/AboveBlockWallBlock.java",
-          "src/main/resources/assets/havahs_adventure/models/item/above_block_wall.json",
-          "src/main/resources/assets/havahs_adventure/blockstates/above_block_wall.json"
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/above_brick_block_wall.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/above_brick_block_wall.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_brick_block_wall.json",
+          "src/main/resources/assets/havahs_adventure/models/item/above_brick_block_wall.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_brick_block_wall_side_tall.json",
+          "src/main/java/net/mcreator/havahsadventure/block/AboveBrickBlockWallBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/above_brick_block_wall_post.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_brick_block_wall_inventory.json"
         ]
       },
       "path": "~/Blocks"
     },
     {
-      "name": "AboveBlockWallRecipe",
+      "name": "AboveBrickBlockWallRecipe",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "above_block_wall_recipe",
+      "registry_name": "above_brick_block_wall_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/havahs_adventure/recipe/above_block_wall_recipe.json"
+          "src/main/resources/data/havahs_adventure/recipe/above_brick_block_wall_recipe.json",
+          "src/main/resources/data/havahs_adventure/advancement/recipes/above_brick_block_wall_recipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -2423,7 +2427,7 @@
       "~CUSTOM:AboveDirt"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:AboveBlockWall",
+      "~CUSTOM:AboveBrickBlockWall",
       "~CUSTOM:AboveBrickSlabBlock",
       "~CUSTOM:AboveBrickStairBlock",
       "~CUSTOM:LightCrystalBlock",
@@ -2493,11 +2497,11 @@
     "BLOCKS:minecraft:wooden_trapdoors": [
       "~CUSTOM:GrayAboveTrapdoor"
     ],
-    "BLOCKS:minecraft:walls": [
-      "~CUSTOM:AboveBlockWall"
-    ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:LightCrystalBlock"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:AboveBrickBlockWall"
     ]
   },
   "tab_element_order": {
@@ -2622,7 +2626,7 @@
       "block.havahs_adventure.gray_above_planks_fence_gate": "Gray Above Wood Fence Gate",
       "block.havahs_adventure.gray_above_planks_pressure_plate": "Gray Above Planks Pressure Plate",
       "block.havahs_adventure.gray_above_wood_trapdoor": "Gray Above Wood Trapdoor",
-      "block.havahs_adventure.above_block_wall": "Above Brick Block Wall"
+      "block.havahs_adventure.above_brick_block_wall": "Above Brick Block Wall"
     }
   },
   "metadata": {
