@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "havahs_adventure:gray_above_planks"
+    }
+  },
+  "result": {
+    "id": "havahs_adventure:gray_above_trapdoor",
+    "count": 2
+  }
+}

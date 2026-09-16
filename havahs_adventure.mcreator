@@ -2133,6 +2133,53 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAboveTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_trapdoor.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_trapdoor_open.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_trapdoor.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_trapdoor.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAboveTrapdoorBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_trapdoor_top.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/advancement/recipes/gray_above_planks_recipe.json",
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_planks_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAboveTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_trapdoor_recipe.json",
+          "src/main/resources/data/havahs_adventure/advancement/recipes/gray_above_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2178,6 +2225,7 @@
       "~CUSTOM:AboveSand"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:GrayAboveTrapdoor",
       "~CUSTOM:GrayAbovePlanks",
       "~CUSTOM:GrayAboveLog",
       "~CUSTOM:Skyroot"
@@ -2193,6 +2241,9 @@
     ],
     "BLOCKS:minecraft:logs": [
       "CUSTOM:GrayAboveLog"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:GrayAboveTrapdoor"
     ]
   },
   "tab_element_order": {},
@@ -2298,7 +2349,8 @@
       "item.havahs_adventure.needle_cotton_fibers": "Needle Cotton Fibers",
       "item.havahs_adventure.needle_cotton_fabric": "Needle Cotton Fabric",
       "block.havahs_adventure.gray_above_log": "Gray Above Log",
-      "block.havahs_adventure.gray_above_planks": "Gray Above Planks"
+      "block.havahs_adventure.gray_above_planks": "Gray Above Planks",
+      "block.havahs_adventure.gray_above_trapdoor": "Gray Above Trapdoor"
     }
   },
   "metadata": {

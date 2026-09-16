@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "havahs_adventure:block/gray_above_trapdoor",
+    "particle": "havahs_adventure:block/gray_above_trapdoor"
+  },
+  "render_type": "solid"
+}

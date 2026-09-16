@@ -44,6 +44,7 @@ public class HavahsAdventureModItems {
 	public static final DeferredItem<Item> NEEDLE_COTTON_FABRIC;
 	public static final DeferredItem<Item> GRAY_ABOVE_LOG;
 	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS;
+	public static final DeferredItem<Item> GRAY_ABOVE_TRAPDOOR;
 	static {
 		ABOVE_BLOCK = block(HavahsAdventureModBlocks.ABOVE_BLOCK, new Item.Properties().fireResistant());
 		FINEL_KEY = REGISTRY.register("finel_key", FinelKeyItem::new);
@@ -72,6 +73,7 @@ public class HavahsAdventureModItems {
 		NEEDLE_COTTON_FABRIC = REGISTRY.register("needle_cotton_fabric", NeedleCottonFabricItem::new);
 		GRAY_ABOVE_LOG = block(HavahsAdventureModBlocks.GRAY_ABOVE_LOG);
 		GRAY_ABOVE_PLANKS = block(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS);
+		GRAY_ABOVE_TRAPDOOR = block(HavahsAdventureModBlocks.GRAY_ABOVE_TRAPDOOR);
 	}
 
 	// Start of user code block custom items
