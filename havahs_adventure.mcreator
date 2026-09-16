@@ -2072,6 +2072,50 @@
         ]
       },
       "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "NeedleCottonFabric",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_fabric",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/item/NeedleCottonFabricItem.java",
+          "src/main/resources/assets/havahs_adventure/models/item/needle_cotton_fabric.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "NeedleCottonFabricRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_cotton_fabric_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/needle_cotton_fabric_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GrayAboveLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_log.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_log.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_log.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAboveLogBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_log.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -2117,6 +2161,7 @@
       "~CUSTOM:AboveSand"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:GrayAboveLog",
       "~CUSTOM:Skyroot"
     ],
     "ITEMS:minecraft:small_flowers": [
@@ -2229,7 +2274,9 @@
       "item.havahs_adventure.needle_cutton_fibers": "Needle Cutton Fibers",
       "item.havahs_adventure.needle_cotton_seed": "Needle Cotton Seed",
       "block.havahs_adventure.needle_cotton_crop": "Needle Cotton Crop",
-      "item.havahs_adventure.needle_cotton_fibers": "Needle Cotton Fibers"
+      "item.havahs_adventure.needle_cotton_fibers": "Needle Cotton Fibers",
+      "item.havahs_adventure.needle_cotton_fabric": "Needle Cotton Fabric",
+      "block.havahs_adventure.gray_above_log": "Gray Above Log"
     }
   },
   "metadata": {

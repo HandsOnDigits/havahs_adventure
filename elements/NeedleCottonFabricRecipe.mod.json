@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.CHORUS_FRUIT"
+        "value": "CUSTOM:NeedleCottonFibers"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Items.STRING"
       },
       {
-        "value": "Items.PRISMARINE_SHARD"
+        "value": "CUSTOM:NeedleCottonFibers"
       },
       {
-        "value": "Items.ECHO_SHARD"
+        "value": "Items.STRING"
       },
       {
-        "value": ""
+        "value": "CUSTOM:NeedleCottonFibers"
       },
       {
-        "value": "CUSTOM:NeedleCottonFabric"
+        "value": "Items.STRING"
       },
       {
-        "value": ""
+        "value": "CUSTOM:NeedleCottonFibers"
       },
       {
-        "value": ""
+        "value": "Items.STRING"
       },
       {
-        "value": ""
+        "value": "CUSTOM:NeedleCottonFibers"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FinelKey"
+      "value": "CUSTOM:NeedleCottonFabric"
     },
-    "name": "finel_key_crafting",
+    "name": "needle_cotton_fabric_recipe",
     "namespace": "mod"
   }
 }

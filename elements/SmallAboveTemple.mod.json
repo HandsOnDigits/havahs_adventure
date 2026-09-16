@@ -14,6 +14,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:AboveBiome"
+      },
+      {
+        "value": "CUSTOM:SmallLandArea"
       }
     ],
     "terrainAdaptation": "beard_box",
