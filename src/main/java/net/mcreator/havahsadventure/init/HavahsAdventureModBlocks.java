@@ -31,6 +31,9 @@ public class HavahsAdventureModBlocks {
 	public static final DeferredBlock<Block> GRAY_ABOVE_LOG;
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS;
 	public static final DeferredBlock<Block> GRAY_ABOVE_TRAPDOOR;
+	public static final DeferredBlock<Block> STRIPPED_GRAY_ABOVE_LOG;
+	public static final DeferredBlock<Block> STRIPPED_GRAY_ABOVE_WOOD;
+	public static final DeferredBlock<Block> GRAY_ABOVE_WOOD;
 	static {
 		ABOVE_BLOCK = REGISTRY.register("above_block", AboveBlockBlock::new);
 		ABOVE_BRICK_BLOCK = REGISTRY.register("above_brick_block", AboveBrickBlockBlock::new);
@@ -50,6 +53,9 @@ public class HavahsAdventureModBlocks {
 		GRAY_ABOVE_LOG = REGISTRY.register("gray_above_log", GrayAboveLogBlock::new);
 		GRAY_ABOVE_PLANKS = REGISTRY.register("gray_above_planks", GrayAbovePlanksBlock::new);
 		GRAY_ABOVE_TRAPDOOR = REGISTRY.register("gray_above_trapdoor", GrayAboveTrapdoorBlock::new);
+		STRIPPED_GRAY_ABOVE_LOG = REGISTRY.register("stripped_gray_above_log", StrippedGrayAboveLogBlock::new);
+		STRIPPED_GRAY_ABOVE_WOOD = REGISTRY.register("stripped_gray_above_wood", StrippedGrayAboveWoodBlock::new);
+		GRAY_ABOVE_WOOD = REGISTRY.register("gray_above_wood", GrayAboveWoodBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

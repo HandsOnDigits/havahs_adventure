@@ -1,8 +1,5 @@
 package net.mcreator.havahsadventure.block;
 
-import net.neoforged.neoforge.common.ItemAbility;
-import net.neoforged.neoforge.common.ItemAbilities;
-
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -14,18 +11,15 @@ import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.havahsadventure.init.HavahsAdventureModBlocks;
-
-public class GrayAboveLogBlock extends Block {
+public class StrippedGrayAboveLogBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
-	public GrayAboveLogBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1f, 10f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
+	public StrippedGrayAboveLogBlock() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1f, 10f).instrument(NoteBlockInstrument.BASS));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
@@ -53,13 +47,5 @@ public class GrayAboveLogBlock extends Block {
 	@Override
 	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 10;
-	}
-
-	@Override
-	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
-		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
-			return HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG.get().withPropertiesOf(blockstate);
-		}
-		return super.getToolModifiedState(blockstate, context, itemAbility, simulate);
 	}
 }

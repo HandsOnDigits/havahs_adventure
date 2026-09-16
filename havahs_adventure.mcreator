@@ -2180,6 +2180,57 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "StrippedGrayAboveLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_gray_above_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/block/StrippedGrayAboveLogBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/item/stripped_gray_above_log.json",
+          "src/main/resources/assets/havahs_adventure/models/block/stripped_gray_above_log.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/stripped_gray_above_log.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/stripped_gray_above_log.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "StrippedGrayAboveWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_gray_above_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/models/block/stripped_gray_above_wood.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/stripped_gray_above_wood.json",
+          "src/main/resources/assets/havahs_adventure/models/item/stripped_gray_above_wood.json",
+          "src/main/java/net/mcreator/havahsadventure/block/StrippedGrayAboveWoodBlock.java",
+          "src/main/resources/assets/havahs_adventure/blockstates/stripped_gray_above_wood.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAboveWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_wood.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAboveWoodBlock.java",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_wood.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_wood.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_wood.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2225,6 +2276,9 @@
       "~CUSTOM:AboveSand"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:GrayAboveWood",
+      "~CUSTOM:StrippedGrayAboveWood",
+      "~CUSTOM:StrippedGrayAboveLog",
       "~CUSTOM:GrayAboveTrapdoor",
       "~CUSTOM:GrayAbovePlanks",
       "~CUSTOM:GrayAboveLog",
@@ -2240,7 +2294,10 @@
       "CUSTOM:NeedleCottonCrop"
     ],
     "BLOCKS:minecraft:logs": [
-      "CUSTOM:GrayAboveLog"
+      "CUSTOM:GrayAboveLog",
+      "CUSTOM:StrippedGrayAboveLog",
+      "CUSTOM:StrippedGrayAboveWood",
+      "CUSTOM:GrayAboveWood"
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
       "~CUSTOM:GrayAboveTrapdoor"
@@ -2350,7 +2407,10 @@
       "item.havahs_adventure.needle_cotton_fabric": "Needle Cotton Fabric",
       "block.havahs_adventure.gray_above_log": "Gray Above Log",
       "block.havahs_adventure.gray_above_planks": "Gray Above Planks",
-      "block.havahs_adventure.gray_above_trapdoor": "Gray Above Trapdoor"
+      "block.havahs_adventure.gray_above_trapdoor": "Gray Above Trapdoor",
+      "block.havahs_adventure.stripped_gray_above_log": "Stripped Gray Above Log",
+      "block.havahs_adventure.stripped_gray_above_wood": "Stripped Gray Above Log",
+      "block.havahs_adventure.gray_above_wood": "Gray Above Log"
     }
   },
   "metadata": {

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "havahs_adventure:gray_above_log"
+    }
+  ],
+  "result": {
+    "id": "havahs_adventure:gray_above_planks",
+    "count": 4
+  }
+}

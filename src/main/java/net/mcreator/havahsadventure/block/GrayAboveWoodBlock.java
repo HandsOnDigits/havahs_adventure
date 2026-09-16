@@ -21,10 +21,10 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.havahsadventure.init.HavahsAdventureModBlocks;
 
-public class GrayAboveLogBlock extends Block {
+public class GrayAboveWoodBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
-	public GrayAboveLogBlock() {
+	public GrayAboveWoodBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(1f, 10f).ignitedByLava().instrument(NoteBlockInstrument.BASS));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}

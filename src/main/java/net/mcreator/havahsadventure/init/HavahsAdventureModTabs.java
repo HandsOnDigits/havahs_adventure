@@ -49,6 +49,9 @@ public class HavahsAdventureModTabs {
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_LOG.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_TRAPDOOR.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -64,12 +67,15 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModBlocks.LIGHT_SPIRAL.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.NEEDLE_GRASS.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_LOG.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_STAIR_BLOCK.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_SLAB_BLOCK.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_TRAPDOOR.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.LIGHT_CRYSTAL_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

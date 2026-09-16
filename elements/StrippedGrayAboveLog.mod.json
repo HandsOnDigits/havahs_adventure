@@ -2,12 +2,12 @@
   "_fv": 85,
   "_type": "block",
   "definition": {
-    "texture": "gray_above_log_top",
-    "textureTop": "gray_above_log_top",
-    "textureLeft": "gray_above_log_sides",
-    "textureFront": "gray_above_log_sides",
-    "textureRight": "gray_above_log_sides",
-    "textureBack": "gray_above_log_sides",
+    "texture": "stripped_gray_above_log_top",
+    "textureTop": "stripped_gray_above_log_top",
+    "textureLeft": "stripped_above_log_sides",
+    "textureFront": "stripped_above_log_sides",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 14,
     "customModelName": "Grass block",
     "rotationMode": 5,
@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Gray Above Log",
+    "name": "Stripped Gray Above Log",
     "specialInformation": {
       "fixedValue": []
     },
@@ -52,7 +52,7 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "DECORATIONS"
+        "value": "BUILDING_BLOCKS"
       },
       {
         "value": "CUSTOM:HavahsAdventure"
@@ -87,9 +87,9 @@
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "strippingResult": {
-      "value": "CUSTOM:StrippedGrayAboveLog"
+      "value": ""
     },
-    "ignitedByLava": true,
+    "ignitedByLava": false,
     "flammability": 5,
     "fireSpreadSpeed": 10,
     "isLadder": false,
