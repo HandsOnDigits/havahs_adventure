@@ -25,7 +25,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -52,9 +52,6 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "TRANSPORTATION"
-      },
       {
         "value": "REDSTONE"
       },

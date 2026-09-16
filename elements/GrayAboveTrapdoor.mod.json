@@ -60,9 +60,6 @@
       },
       {
         "value": "REDSTONE"
-      },
-      {
-        "value": "TRANSPORTATION"
       }
     ],
     "destroyTool": "axe",

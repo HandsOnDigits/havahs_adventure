@@ -80,8 +80,6 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.LIGHT_CRYSTAL_BLOCK.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_TRAPDOOR.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(HavahsAdventureModItems.LIGHT_CRYSTAL.get());
 			tabData.accept(HavahsAdventureModItems.EYE_BANNER_PATTERN.get());

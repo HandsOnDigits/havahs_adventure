@@ -5,5 +5,5 @@
     "bottom": "havahs_adventure:block/gray_above_planks_door_bottom",
     "top": "havahs_adventure:block/gray_above_planks_door_top"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }
