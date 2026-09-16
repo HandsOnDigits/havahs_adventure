@@ -1,12 +1,15 @@
 {
   "replace": false,
   "values": [
+    "havahs_adventure:gray_above_planks_door",
     "havahs_adventure:gray_above_log",
     "havahs_adventure:stripped_gray_above_wood",
     "havahs_adventure:stripped_gray_above_log",
     "havahs_adventure:skyroot",
     "havahs_adventure:gray_above_trapdoor",
     "havahs_adventure:gray_above_planks",
-    "havahs_adventure:gray_above_wood"
+    "havahs_adventure:gray_above_wood",
+    "havahs_adventure:gray_above_planks_slabs",
+    "havahs_adventure:gray_above_planks_stairs"
   ]
 }

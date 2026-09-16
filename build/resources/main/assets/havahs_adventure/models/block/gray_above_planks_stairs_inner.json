@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "havahs_adventure:block/gray_above_planks",
+    "bottom": "havahs_adventure:block/gray_above_planks",
+    "top": "havahs_adventure:block/gray_above_planks",
+    "side": "havahs_adventure:block/gray_above_planks"
+  },
+  "render_type": "solid"
+}

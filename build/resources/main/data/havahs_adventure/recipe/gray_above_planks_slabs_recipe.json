@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "havahs_adventure:gray_above_planks"
+    }
+  },
+  "result": {
+    "id": "havahs_adventure:gray_above_planks_slabs",
+    "count": 6
+  }
+}

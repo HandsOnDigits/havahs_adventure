@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "havahs_adventure:above_brick_slab_block"
+    "havahs_adventure:above_brick_slab_block",
+    "havahs_adventure:gray_above_planks_slabs"
   ]
 }

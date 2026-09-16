@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "havahs_adventure:block/gray_above_planks_slabs"
+    },
+    "type=top": {
+      "model": "havahs_adventure:block/gray_above_planks_slabs_top"
+    },
+    "type=double": {
+      "model": "havahs_adventure:block/gray_above_planks_slabs_full"
+    }
+  }
+}

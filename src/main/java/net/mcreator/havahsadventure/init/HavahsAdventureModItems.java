@@ -50,6 +50,8 @@ public class HavahsAdventureModItems {
 	public static final DeferredItem<Item> STRIPPED_GRAY_ABOVE_WOOD;
 	public static final DeferredItem<Item> GRAY_ABOVE_WOOD;
 	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_DOOR;
+	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_STAIRS;
+	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_SLABS;
 	static {
 		ABOVE_BLOCK = block(HavahsAdventureModBlocks.ABOVE_BLOCK, new Item.Properties().fireResistant());
 		FINEL_KEY = REGISTRY.register("finel_key", FinelKeyItem::new);
@@ -83,6 +85,8 @@ public class HavahsAdventureModItems {
 		STRIPPED_GRAY_ABOVE_WOOD = block(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD);
 		GRAY_ABOVE_WOOD = block(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD);
 		GRAY_ABOVE_PLANKS_DOOR = doubleBlock(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR);
+		GRAY_ABOVE_PLANKS_STAIRS = block(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_STAIRS);
+		GRAY_ABOVE_PLANKS_SLABS = block(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_SLABS);
 	}
 
 	// Start of user code block custom items

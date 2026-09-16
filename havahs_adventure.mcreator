@@ -2198,6 +2198,70 @@
         ]
       },
       "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "GrayAbovePlanksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_planks_stairs.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_stairs.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_planks_stairs.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksStairsBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_stairs_outer.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks_stairs.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_planks_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksSlabs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_slabs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksSlabsBlock.java",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks_slabs.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_slabs.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_slabs_full.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_planks_slabs.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_slabs_top.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_planks_slabs.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksSlabsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_slabs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_planks_slabs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2213,9 +2277,11 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:GrayAbovePlanksStairs",
       "~CUSTOM:AboveBrickStairBlock"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:GrayAbovePlanksSlabs",
       "~CUSTOM:AboveBrickSlabBlock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
@@ -2243,6 +2309,9 @@
       "~CUSTOM:AboveSand"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:GrayAbovePlanksSlabs",
+      "~CUSTOM:GrayAbovePlanksStairs",
+      "~CUSTOM:GrayAbovePlanksDoor",
       "~CUSTOM:GrayAboveWood",
       "~CUSTOM:StrippedGrayAboveWood",
       "~CUSTOM:StrippedGrayAboveLog",
@@ -2269,17 +2338,17 @@
     "BLOCKS:minecraft:wooden_trapdoors": [
       "~CUSTOM:GrayAboveTrapdoor"
     ],
-    "BLOCKS:mod:gray_above_logs": [
-      "CUSTOM:GrayAboveLog",
-      "CUSTOM:StrippedGrayAboveLog",
-      "CUSTOM:StrippedGrayAboveWood",
-      "CUSTOM:GrayAboveWood"
-    ],
     "BLOCKS:minecraft:wooden_doors": [
       "~CUSTOM:GrayAbovePlanksDoor"
     ],
     "BLOCKS:minecraft:flower_pots": [
       "~CUSTOM:PottedLightSpiral"
+    ],
+    "ITEMS:mod:gray_above_logs": [
+      "CUSTOM:GrayAboveLog",
+      "CUSTOM:StrippedGrayAboveLog",
+      "CUSTOM:StrippedGrayAboveWood",
+      "CUSTOM:GrayAboveWood"
     ]
   },
   "tab_element_order": {},
@@ -2390,7 +2459,9 @@
       "block.havahs_adventure.stripped_gray_above_log": "Stripped Gray Above Log",
       "block.havahs_adventure.stripped_gray_above_wood": "Stripped Gray Above Log",
       "block.havahs_adventure.gray_above_wood": "Gray Above Log",
-      "block.havahs_adventure.gray_above_planks_door": "Gray Above Planks Door"
+      "block.havahs_adventure.gray_above_planks_door": "Gray Above Planks Door",
+      "block.havahs_adventure.gray_above_planks_stairs": "Gray Above Planks Stairs",
+      "block.havahs_adventure.gray_above_planks_slabs": "Gray Above Planks Slabs"
     }
   },
   "metadata": {
