@@ -2,14 +2,17 @@
   "replace": false,
   "values": [
     "havahs_adventure:gray_above_planks_door",
-    "havahs_adventure:gray_above_log",
     "havahs_adventure:stripped_gray_above_wood",
+    "havahs_adventure:gray_above_wood_trapdoor",
+    "havahs_adventure:gray_above_planks",
+    "havahs_adventure:gray_above_planks_slabs",
+    "havahs_adventure:gray_above_planks_stairs",
+    "havahs_adventure:gray_above_planks_fence",
+    "havahs_adventure:gray_above_log",
     "havahs_adventure:stripped_gray_above_log",
     "havahs_adventure:skyroot",
-    "havahs_adventure:gray_above_trapdoor",
-    "havahs_adventure:gray_above_planks",
+    "havahs_adventure:gray_above_planks_pressure_plate",
     "havahs_adventure:gray_above_wood",
-    "havahs_adventure:gray_above_planks_slabs",
-    "havahs_adventure:gray_above_planks_stairs"
+    "havahs_adventure:gray_above_planks_fence_gate"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "havahs_adventure:block/gray_above_planks",
+    "particle": "havahs_adventure:block/gray_above_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "havahs_adventure:block/gray_above_trapdoor",
+  "parent": "havahs_adventure:block/gray_above_wood_trapdoor",
   "display": {
     "thirdperson": {
       "rotation": [

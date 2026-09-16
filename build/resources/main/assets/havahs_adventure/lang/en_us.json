@@ -100,11 +100,15 @@
   "item.havahs_adventure.needle_cotton_fabric": "Needle Cotton Fabric",
   "block.havahs_adventure.gray_above_log": "Gray Above Log",
   "block.havahs_adventure.gray_above_planks": "Gray Above Planks",
-  "block.havahs_adventure.gray_above_trapdoor": "Gray Above Trapdoor",
   "block.havahs_adventure.stripped_gray_above_log": "Stripped Gray Above Log",
   "block.havahs_adventure.stripped_gray_above_wood": "Stripped Gray Above Log",
   "block.havahs_adventure.gray_above_wood": "Gray Above Log",
   "block.havahs_adventure.gray_above_planks_door": "Gray Above Planks Door",
-  "block.havahs_adventure.gray_above_planks_stairs": "Gray Above Planks Stairs",
-  "block.havahs_adventure.gray_above_planks_slabs": "Gray Above Planks Slabs"
+  "block.havahs_adventure.gray_above_planks_stairs": "Gray Above Wood Stairs",
+  "block.havahs_adventure.gray_above_planks_slabs": "Gray Above Wood Slabs",
+  "item.havahs_adventure.guard_attack_spawn_egg": "Guard Attack Spawn Egg",
+  "block.havahs_adventure.gray_above_planks_fence": "Gray Above Wood Fence",
+  "block.havahs_adventure.gray_above_planks_fence_gate": "Gray Above Wood Fence Gate",
+  "block.havahs_adventure.gray_above_planks_pressure_plate": "Gray Above Planks Pressure Plate",
+  "block.havahs_adventure.gray_above_wood_trapdoor": "Gray Above Wood Trapdoor"
 }

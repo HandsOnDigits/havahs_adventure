@@ -1133,6 +1133,7 @@
       "registry_name": "guard_attack",
       "metadata": {
         "files": [
+          "src/main/resources/assets/havahs_adventure/models/item/guard_attack_spawn_egg.json",
           "src/main/java/net/mcreator/havahsadventure/entity/GuardAttackEntity.java",
           "src/main/java/net/mcreator/havahsadventure/client/renderer/GuardAttackRenderer.java"
         ]
@@ -2029,16 +2030,16 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gray_above_trapdoor",
+      "registry_name": "gray_above_wood_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_trapdoor.json",
-          "src/main/resources/assets/havahs_adventure/models/block/gray_above_trapdoor_open.json",
-          "src/main/resources/assets/havahs_adventure/models/item/gray_above_trapdoor.json",
-          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_trapdoor.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_wood_trapdoor.json",
           "src/main/java/net/mcreator/havahsadventure/block/GrayAboveTrapdoorBlock.java",
-          "src/main/resources/assets/havahs_adventure/models/block/gray_above_trapdoor_top.json",
-          "src/main/resources/assets/havahs_adventure/models/block/gray_above_trapdoor.json"
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_wood_trapdoor.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_wood_trapdoor.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_wood_trapdoor_open.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_wood_trapdoor.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_wood_trapdoor_top.json"
         ]
       },
       "path": "~/Blocks/Plants/Trees"
@@ -2262,6 +2263,105 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks_fence.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_planks_fence.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksFenceBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_fence_post.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_fence.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_planks_fence.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_fence_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/advancement/recipes/gray_above_planks_fence_recipe.json",
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_planks_fence_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_planks_fence_gate.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_planks_fence_gate.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_fence_gate_open.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_fence_gate_wall_open.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks_fence_gate.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksFenceGateBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_fence_gate.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_planks_fence_gate_recipe.json",
+          "src/main/resources/data/havahs_adventure/advancement/recipes/gray_above_planks_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_pressure_plate_down.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks_pressure_plate.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_planks_pressure_plate.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_pressure_plate.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksPressurePlateBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_planks_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_planks_pressure_plate_recipe.json",
+          "src/main/resources/data/havahs_adventure/advancement/recipes/gray_above_planks_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2309,6 +2409,9 @@
       "~CUSTOM:AboveSand"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:GrayAbovePlanksPressurePlate",
+      "~CUSTOM:GrayAbovePlanksFenceGate",
+      "~CUSTOM:GrayAbovePlanksFence",
       "~CUSTOM:GrayAbovePlanksSlabs",
       "~CUSTOM:GrayAbovePlanksStairs",
       "~CUSTOM:GrayAbovePlanksDoor",
@@ -2335,9 +2438,6 @@
       "CUSTOM:StrippedGrayAboveWood",
       "CUSTOM:GrayAboveWood"
     ],
-    "BLOCKS:minecraft:wooden_trapdoors": [
-      "~CUSTOM:GrayAboveTrapdoor"
-    ],
     "BLOCKS:minecraft:wooden_doors": [
       "~CUSTOM:GrayAbovePlanksDoor"
     ],
@@ -2349,6 +2449,15 @@
       "CUSTOM:StrippedGrayAboveLog",
       "CUSTOM:StrippedGrayAboveWood",
       "CUSTOM:GrayAboveWood"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:GrayAbovePlanksFence"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:GrayAbovePlanksPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:GrayAboveTrapdoor"
     ]
   },
   "tab_element_order": {},
@@ -2455,13 +2564,17 @@
       "item.havahs_adventure.needle_cotton_fabric": "Needle Cotton Fabric",
       "block.havahs_adventure.gray_above_log": "Gray Above Log",
       "block.havahs_adventure.gray_above_planks": "Gray Above Planks",
-      "block.havahs_adventure.gray_above_trapdoor": "Gray Above Trapdoor",
       "block.havahs_adventure.stripped_gray_above_log": "Stripped Gray Above Log",
       "block.havahs_adventure.stripped_gray_above_wood": "Stripped Gray Above Log",
       "block.havahs_adventure.gray_above_wood": "Gray Above Log",
       "block.havahs_adventure.gray_above_planks_door": "Gray Above Planks Door",
-      "block.havahs_adventure.gray_above_planks_stairs": "Gray Above Planks Stairs",
-      "block.havahs_adventure.gray_above_planks_slabs": "Gray Above Planks Slabs"
+      "block.havahs_adventure.gray_above_planks_stairs": "Gray Above Wood Stairs",
+      "block.havahs_adventure.gray_above_planks_slabs": "Gray Above Wood Slabs",
+      "item.havahs_adventure.guard_attack_spawn_egg": "Guard Attack Spawn Egg",
+      "block.havahs_adventure.gray_above_planks_fence": "Gray Above Wood Fence",
+      "block.havahs_adventure.gray_above_planks_fence_gate": "Gray Above Wood Fence Gate",
+      "block.havahs_adventure.gray_above_planks_pressure_plate": "Gray Above Planks Pressure Plate",
+      "block.havahs_adventure.gray_above_wood_trapdoor": "Gray Above Wood Trapdoor"
     }
   },
   "metadata": {

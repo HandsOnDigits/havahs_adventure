@@ -30,13 +30,16 @@ public class HavahsAdventureModBlocks {
 	public static final DeferredBlock<Block> NEEDLE_COTTON_CROP;
 	public static final DeferredBlock<Block> GRAY_ABOVE_LOG;
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS;
-	public static final DeferredBlock<Block> GRAY_ABOVE_TRAPDOOR;
+	public static final DeferredBlock<Block> GRAY_ABOVE_WOOD_TRAPDOOR;
 	public static final DeferredBlock<Block> STRIPPED_GRAY_ABOVE_LOG;
 	public static final DeferredBlock<Block> STRIPPED_GRAY_ABOVE_WOOD;
 	public static final DeferredBlock<Block> GRAY_ABOVE_WOOD;
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_DOOR;
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_STAIRS;
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_SLABS;
+	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_FENCE;
+	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_FENCE_GATE;
+	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_PRESSURE_PLATE;
 	static {
 		ABOVE_BLOCK = REGISTRY.register("above_block", AboveBlockBlock::new);
 		ABOVE_BRICK_BLOCK = REGISTRY.register("above_brick_block", AboveBrickBlockBlock::new);
@@ -55,13 +58,16 @@ public class HavahsAdventureModBlocks {
 		NEEDLE_COTTON_CROP = REGISTRY.register("needle_cotton_crop", NeedleCottonCropBlock::new);
 		GRAY_ABOVE_LOG = REGISTRY.register("gray_above_log", GrayAboveLogBlock::new);
 		GRAY_ABOVE_PLANKS = REGISTRY.register("gray_above_planks", GrayAbovePlanksBlock::new);
-		GRAY_ABOVE_TRAPDOOR = REGISTRY.register("gray_above_trapdoor", GrayAboveTrapdoorBlock::new);
+		GRAY_ABOVE_WOOD_TRAPDOOR = REGISTRY.register("gray_above_wood_trapdoor", GrayAboveTrapdoorBlock::new);
 		STRIPPED_GRAY_ABOVE_LOG = REGISTRY.register("stripped_gray_above_log", StrippedGrayAboveLogBlock::new);
 		STRIPPED_GRAY_ABOVE_WOOD = REGISTRY.register("stripped_gray_above_wood", StrippedGrayAboveWoodBlock::new);
 		GRAY_ABOVE_WOOD = REGISTRY.register("gray_above_wood", GrayAboveWoodBlock::new);
 		GRAY_ABOVE_PLANKS_DOOR = REGISTRY.register("gray_above_planks_door", GrayAbovePlanksDoorBlock::new);
 		GRAY_ABOVE_PLANKS_STAIRS = REGISTRY.register("gray_above_planks_stairs", GrayAbovePlanksStairsBlock::new);
 		GRAY_ABOVE_PLANKS_SLABS = REGISTRY.register("gray_above_planks_slabs", GrayAbovePlanksSlabsBlock::new);
+		GRAY_ABOVE_PLANKS_FENCE = REGISTRY.register("gray_above_planks_fence", GrayAbovePlanksFenceBlock::new);
+		GRAY_ABOVE_PLANKS_FENCE_GATE = REGISTRY.register("gray_above_planks_fence_gate", GrayAbovePlanksFenceGateBlock::new);
+		GRAY_ABOVE_PLANKS_PRESSURE_PLATE = REGISTRY.register("gray_above_planks_pressure_plate", GrayAbovePlanksPressurePlateBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
