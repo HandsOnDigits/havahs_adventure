@@ -10,6 +10,7 @@ import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.havahsadventure.item.*;
@@ -48,6 +49,7 @@ public class HavahsAdventureModItems {
 	public static final DeferredItem<Item> STRIPPED_GRAY_ABOVE_LOG;
 	public static final DeferredItem<Item> STRIPPED_GRAY_ABOVE_WOOD;
 	public static final DeferredItem<Item> GRAY_ABOVE_WOOD;
+	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_DOOR;
 	static {
 		ABOVE_BLOCK = block(HavahsAdventureModBlocks.ABOVE_BLOCK, new Item.Properties().fireResistant());
 		FINEL_KEY = REGISTRY.register("finel_key", FinelKeyItem::new);
@@ -80,6 +82,7 @@ public class HavahsAdventureModItems {
 		STRIPPED_GRAY_ABOVE_LOG = block(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG);
 		STRIPPED_GRAY_ABOVE_WOOD = block(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD);
 		GRAY_ABOVE_WOOD = block(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD);
+		GRAY_ABOVE_PLANKS_DOOR = doubleBlock(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR);
 	}
 
 	// Start of user code block custom items
@@ -90,5 +93,13 @@ public class HavahsAdventureModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), properties));
 	}
 }

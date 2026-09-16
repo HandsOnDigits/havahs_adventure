@@ -2,8 +2,8 @@
   "_fv": 85,
   "_type": "block",
   "definition": {
-    "texture": "gray_above_trapdoor",
-    "textureTop": "",
+    "texture": "gray_above_planks_door_bottom",
+    "textureTop": "gray_above_planks_door_top",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -16,9 +16,9 @@
     "displayFluidOverlay": false,
     "states": [],
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "gray_above_planks_door",
     "particleTexture": "",
-    "blockBase": "TrapDoor",
+    "blockBase": "Door",
     "blockSetType": "OAK",
     "leavesParticleChance": 0.0,
     "tintType": "No tint",
@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Gray Above Trapdoor",
+    "name": "Gray Above Planks Door",
     "specialInformation": {
       "fixedValue": []
     },
@@ -53,19 +53,19 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:HavahsAdventure"
-      },
-      {
-        "value": "BUILDING_BLOCKS"
+        "value": "TRANSPORTATION"
       },
       {
         "value": "REDSTONE"
       },
       {
-        "value": "TRANSPORTATION"
+        "value": "CUSTOM:HavahsAdventure"
+      },
+      {
+        "value": "BUILDING_BLOCKS"
       }
     ],
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -87,7 +87,7 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "bass",
+    "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
     },
@@ -103,7 +103,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {

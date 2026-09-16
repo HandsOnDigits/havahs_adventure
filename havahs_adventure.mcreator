@@ -2258,6 +2258,43 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_door_top_left.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_door_bottom_left_open.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_door_top_right.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_planks_door.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks_door.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_door_bottom_right.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_door_bottom_left.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_planks_door.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_door_bottom_right_open.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_door_top_right_open.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksDoorBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_door_top_left_open.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_planks_door_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2334,6 +2371,9 @@
       "CUSTOM:StrippedGrayAboveLog",
       "CUSTOM:StrippedGrayAboveWood",
       "CUSTOM:GrayAboveWood"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:GrayAbovePlanksDoor"
     ]
   },
   "tab_element_order": {},
@@ -2443,7 +2483,8 @@
       "block.havahs_adventure.gray_above_trapdoor": "Gray Above Trapdoor",
       "block.havahs_adventure.stripped_gray_above_log": "Stripped Gray Above Log",
       "block.havahs_adventure.stripped_gray_above_wood": "Stripped Gray Above Log",
-      "block.havahs_adventure.gray_above_wood": "Gray Above Log"
+      "block.havahs_adventure.gray_above_wood": "Gray Above Log",
+      "block.havahs_adventure.gray_above_planks_door": "Gray Above Planks Door"
     }
   },
   "metadata": {

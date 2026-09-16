@@ -52,6 +52,7 @@ public class HavahsAdventureModTabs {
 				tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -76,8 +77,11 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_TRAPDOOR.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.LIGHT_CRYSTAL_BLOCK.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_TRAPDOOR.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(HavahsAdventureModItems.LIGHT_CRYSTAL.get());
 			tabData.accept(HavahsAdventureModItems.EYE_BANNER_PATTERN.get());
@@ -95,6 +99,7 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModItems.SKYROOT_FRUIT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_TRAPDOOR.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
 		}
 	}
 }

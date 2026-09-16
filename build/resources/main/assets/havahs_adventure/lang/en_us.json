@@ -103,5 +103,6 @@
   "block.havahs_adventure.gray_above_trapdoor": "Gray Above Trapdoor",
   "block.havahs_adventure.stripped_gray_above_log": "Stripped Gray Above Log",
   "block.havahs_adventure.stripped_gray_above_wood": "Stripped Gray Above Log",
-  "block.havahs_adventure.gray_above_wood": "Gray Above Log"
+  "block.havahs_adventure.gray_above_wood": "Gray Above Log",
+  "block.havahs_adventure.gray_above_planks_door": "Gray Above Planks Door"
 }
