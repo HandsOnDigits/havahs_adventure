@@ -2115,7 +2115,24 @@
           "src/main/resources/assets/havahs_adventure/models/block/gray_above_log.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_planks.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_planks.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2161,6 +2178,7 @@
       "~CUSTOM:AboveSand"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:GrayAbovePlanks",
       "~CUSTOM:GrayAboveLog",
       "~CUSTOM:Skyroot"
     ],
@@ -2172,6 +2190,9 @@
     ],
     "BLOCKS:c:crops": [
       "CUSTOM:NeedleCottonCrop"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:GrayAboveLog"
     ]
   },
   "tab_element_order": {},
@@ -2276,7 +2297,8 @@
       "block.havahs_adventure.needle_cotton_crop": "Needle Cotton Crop",
       "item.havahs_adventure.needle_cotton_fibers": "Needle Cotton Fibers",
       "item.havahs_adventure.needle_cotton_fabric": "Needle Cotton Fabric",
-      "block.havahs_adventure.gray_above_log": "Gray Above Log"
+      "block.havahs_adventure.gray_above_log": "Gray Above Log",
+      "block.havahs_adventure.gray_above_planks": "Gray Above Planks"
     }
   },
   "metadata": {
@@ -2310,7 +2332,12 @@
         "children": [
           {
             "name": "Plants",
-            "children": []
+            "children": [
+              {
+                "name": "Trees",
+                "children": []
+              }
+            ]
           }
         ]
       },

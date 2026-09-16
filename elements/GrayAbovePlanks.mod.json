@@ -2,15 +2,15 @@
   "_fv": 85,
   "_type": "block",
   "definition": {
-    "texture": "gray_above_log_top",
-    "textureTop": "gray_above_log_top",
-    "textureLeft": "gray_above_log_sides",
-    "textureFront": "gray_above_log_sides",
-    "textureRight": "gray_above_log_sides",
-    "textureBack": "gray_above_log_sides",
-    "renderType": 14,
-    "customModelName": "Grass block",
-    "rotationMode": 5,
+    "texture": "gray_above_planks",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -38,7 +38,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Gray Above Log",
+    "name": "Gray Above Planks",
     "specialInformation": {
       "fixedValue": []
     },
@@ -52,7 +52,7 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "DECORATIONS"
+        "value": "BUILDING_BLOCKS"
       },
       {
         "value": "CUSTOM:HavahsAdventure"
@@ -90,7 +90,7 @@
       "value": ""
     },
     "ignitedByLava": true,
-    "flammability": 5,
+    "flammability": 20,
     "fireSpreadSpeed": 10,
     "isLadder": false,
     "slipperiness": 0.6,

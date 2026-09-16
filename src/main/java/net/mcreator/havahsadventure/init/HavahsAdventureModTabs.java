@@ -47,6 +47,7 @@ public class HavahsAdventureModTabs {
 				tabData.accept(HavahsAdventureModItems.NEEDLE_COTTON_FIBERS.get());
 				tabData.accept(HavahsAdventureModItems.NEEDLE_COTTON_FABRIC.get());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_LOG.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -66,6 +67,7 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_STAIR_BLOCK.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_SLAB_BLOCK.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.LIGHT_CRYSTAL_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
