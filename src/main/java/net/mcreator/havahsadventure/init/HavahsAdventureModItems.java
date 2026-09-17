@@ -10,6 +10,7 @@ import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HangingSignItem;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
@@ -57,6 +58,9 @@ public class HavahsAdventureModItems {
 	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_FENCE_GATE;
 	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_PRESSURE_PLATE;
 	public static final DeferredItem<Item> ABOVE_BRICK_BLOCK_WALL;
+	public static final DeferredItem<Item> GRAY_ABOVE_WOOD_BUTTON;
+	public static final DeferredItem<Item> ABOVE_BLOCK_BUTTON;
+	public static final DeferredItem<Item> STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN;
 	static {
 		ABOVE_BLOCK = block(HavahsAdventureModBlocks.ABOVE_BLOCK, new Item.Properties().fireResistant());
 		FINEL_KEY = REGISTRY.register("finel_key", FinelKeyItem::new);
@@ -97,6 +101,9 @@ public class HavahsAdventureModItems {
 		GRAY_ABOVE_PLANKS_FENCE_GATE = block(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE);
 		GRAY_ABOVE_PLANKS_PRESSURE_PLATE = block(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE);
 		ABOVE_BRICK_BLOCK_WALL = block(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK_WALL);
+		GRAY_ABOVE_WOOD_BUTTON = block(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_BUTTON);
+		ABOVE_BLOCK_BUTTON = block(HavahsAdventureModBlocks.ABOVE_BLOCK_BUTTON);
+		STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN = hangingSignBlock(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN, HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG_HENGING_WALL_SIGN, new Item.Properties().stacksTo(16));
 	}
 
 	// Start of user code block custom items
@@ -115,5 +122,13 @@ public class HavahsAdventureModItems {
 
 	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), properties));
+	}
+
+	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
+		return hangingSignBlock(block, wallBlock, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new HangingSignItem(block.get(), wallBlock.get(), properties));
 	}
 }

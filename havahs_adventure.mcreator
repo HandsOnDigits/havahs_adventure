@@ -2399,6 +2399,105 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "GrayAboveWoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_wood_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAboveWoodButtonBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_wood_button.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_wood_button.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_wood_button.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_wood_button_pressed.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_wood_button.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_wood_button_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAboveWoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_wood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_wood_button_recipe.json",
+          "src/main/resources/data/havahs_adventure/advancement/recipes/gray_above_wood_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "AboveBlockButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_block_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_button_inventory.json",
+          "src/main/java/net/mcreator/havahsadventure/block/AboveBlockButtonBlock.java",
+          "src/main/resources/assets/havahs_adventure/blockstates/above_block_button.json",
+          "src/main/resources/assets/havahs_adventure/models/item/above_block_button.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_button_pressed.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/above_block_button.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_button.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AboveBlockButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_block_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/above_block_button_recipe.json",
+          "src/main/resources/data/havahs_adventure/advancement/recipes/above_block_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StrippedGrayAboveLogHengingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_gray_above_log_henging_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/havahs_adventure/blockstates/stripped_gray_above_log_henging_wall_sign.json",
+          "src/main/java/net/mcreator/havahsadventure/block/StrippedGrayAboveLogHengingSignBlock.java",
+          "src/main/java/net/mcreator/havahsadventure/block/StrippedGrayAboveLogHengingWallSignBlock.java",
+          "src/main/resources/assets/havahs_adventure/blockstates/stripped_gray_above_log_henging_sign.json",
+          "src/main/resources/assets/havahs_adventure/models/block/stripped_gray_above_log_henging_sign.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/stripped_gray_above_log_henging_sign.json",
+          "src/main/resources/assets/havahs_adventure/models/item/stripped_gray_above_log_henging_sign.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "StrippedGrayAboveLogHengingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_gray_above_log_henging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/stripped_gray_above_log_henging_sign_recipe.json",
+          "src/main/resources/data/havahs_adventure/advancement/recipes/stripped_gray_above_log_henging_sign_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2502,14 +2601,46 @@
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:AboveBrickBlockWall"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:GrayAboveWoodButton"
+    ],
+    "BLOCKS:minecraft:buttons": [
+      "~CUSTOM:AboveBlockButton"
+    ],
+    "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~CUSTOM:StrippedGrayAboveLogHengingSign"
+    ],
+    "BLOCKS:minecraft:wall_hanging_signs": [
+      "~CUSTOM:StrippedGrayAboveLogHengingSign.wall"
     ]
   },
   "tab_element_order": {
     "REDSTONE": [
+      "GrayAboveWoodButton",
+      "AboveBlockButton",
+      "GrayAbovePlanksPressurePlate",
       "GrayAbovePlanksDoor",
       "GrayAbovePlanksFenceGate",
+      "GrayAboveTrapdoor"
+    ],
+    "BUILDING_BLOCKS": [
+      "AboveBrickBlock",
+      "AboveBrickStairBlock",
+      "AboveBrickSlabBlock",
+      "AboveBlockButton",
+      "GrayAbovePlanks",
       "GrayAboveTrapdoor",
-      "GrayAbovePlanksPressurePlate"
+      "StrippedGrayAboveLog",
+      "StrippedGrayAboveWood",
+      "GrayAbovePlanksDoor",
+      "GrayAbovePlanksStairs",
+      "GrayAbovePlanksSlabs",
+      "GrayAbovePlanksFence",
+      "GrayAbovePlanksFenceGate",
+      "GrayAboveWoodButton",
+      "GrayAbovePlanksPressurePlate",
+      "AboveBrickBlockWall"
     ]
   },
   "language_map": {
@@ -2626,12 +2757,16 @@
       "block.havahs_adventure.gray_above_planks_fence_gate": "Gray Above Wood Fence Gate",
       "block.havahs_adventure.gray_above_planks_pressure_plate": "Gray Above Planks Pressure Plate",
       "block.havahs_adventure.gray_above_wood_trapdoor": "Gray Above Wood Trapdoor",
-      "block.havahs_adventure.above_brick_block_wall": "Above Brick Block Wall"
+      "block.havahs_adventure.above_brick_block_wall": "Above Brick Block Wall",
+      "block.havahs_adventure.gray_above_wood_button": "Gray Above Wood Button",
+      "block.havahs_adventure.above_block_button": "Above Block Button",
+      "block.havahs_adventure.stripped_gray_above_log_henging_sign": "Stripped Gray Above Wood Henging Sign"
     }
   },
   "metadata": {
     "files": [
       "src/main/resources/data/minecraft/tags/banner_pattern/no_item_required.json",
+      "src/main/java/net/mcreator/havahsadventure/init/HavahsAdventureModWoodTypes.java",
       "src/main/java/net/mcreator/havahsadventure/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/havahsadventure/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mcreator/havahsadventure/init/HavahsAdventureModKeyMappings.java",

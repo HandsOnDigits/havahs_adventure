@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "havahs_adventure:above_block"
+    }
+  },
+  "result": {
+    "id": "havahs_adventure:above_block_button",
+    "count": 1
+  }
+}

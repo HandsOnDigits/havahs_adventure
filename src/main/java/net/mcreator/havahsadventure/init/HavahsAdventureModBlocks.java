@@ -5,12 +5,20 @@ package net.mcreator.havahsadventure.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.event.BlockEntityTypeAddBlocksEvent;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.client.renderer.Sheets;
 
 import net.mcreator.havahsadventure.block.*;
 import net.mcreator.havahsadventure.HavahsAdventureMod;
 
+@EventBusSubscriber
 public class HavahsAdventureModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(HavahsAdventureMod.MODID);
 	public static final DeferredBlock<Block> ABOVE_BLOCK;
@@ -41,6 +49,10 @@ public class HavahsAdventureModBlocks {
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_FENCE_GATE;
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_PRESSURE_PLATE;
 	public static final DeferredBlock<Block> ABOVE_BRICK_BLOCK_WALL;
+	public static final DeferredBlock<Block> GRAY_ABOVE_WOOD_BUTTON;
+	public static final DeferredBlock<Block> ABOVE_BLOCK_BUTTON;
+	public static final DeferredBlock<Block> STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN;
+	public static final DeferredBlock<Block> STRIPPED_GRAY_ABOVE_LOG_HENGING_WALL_SIGN;
 	static {
 		ABOVE_BLOCK = REGISTRY.register("above_block", AboveBlockBlock::new);
 		ABOVE_BRICK_BLOCK = REGISTRY.register("above_brick_block", AboveBrickBlockBlock::new);
@@ -70,7 +82,24 @@ public class HavahsAdventureModBlocks {
 		GRAY_ABOVE_PLANKS_FENCE_GATE = REGISTRY.register("gray_above_planks_fence_gate", GrayAbovePlanksFenceGateBlock::new);
 		GRAY_ABOVE_PLANKS_PRESSURE_PLATE = REGISTRY.register("gray_above_planks_pressure_plate", GrayAbovePlanksPressurePlateBlock::new);
 		ABOVE_BRICK_BLOCK_WALL = REGISTRY.register("above_brick_block_wall", AboveBrickBlockWallBlock::new);
+		GRAY_ABOVE_WOOD_BUTTON = REGISTRY.register("gray_above_wood_button", GrayAboveWoodButtonBlock::new);
+		ABOVE_BLOCK_BUTTON = REGISTRY.register("above_block_button", AboveBlockButtonBlock::new);
+		STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN = REGISTRY.register("stripped_gray_above_log_henging_sign", StrippedGrayAboveLogHengingSignBlock::new);
+		STRIPPED_GRAY_ABOVE_LOG_HENGING_WALL_SIGN = REGISTRY.register("stripped_gray_above_log_henging_wall_sign", StrippedGrayAboveLogHengingWallSignBlock::new);
 	}
+
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
+	@EventBusSubscriber(Dist.CLIENT)
+	public static class BlocksClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			Sheets.addWoodType(HavahsAdventureModWoodTypes.STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN_WOOD_TYPE);
+		}
+	}
+
+	@SubscribeEvent
+	public static void registerSigns(BlockEntityTypeAddBlocksEvent event) {
+		event.modify(BlockEntityType.HANGING_SIGN, STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN.get(), STRIPPED_GRAY_ABOVE_LOG_HENGING_WALL_SIGN.get());
+	}
 }

@@ -59,7 +59,10 @@ public class HavahsAdventureModTabs {
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK_WALL.get().asItem());
-			}).build());
+				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_BUTTON.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_BUTTON.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN.get().asItem());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -75,23 +78,9 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModBlocks.NEEDLE_GRASS.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_LOG.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_STAIR_BLOCK.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_SLAB_BLOCK.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_TRAPDOOR.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_STAIRS.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_SLABS.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE.get().asItem());
-			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK_WALL.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.LIGHT_CRYSTAL_BLOCK.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(HavahsAdventureModItems.LIGHT_CRYSTAL.get());
 			tabData.accept(HavahsAdventureModItems.EYE_BANNER_PATTERN.get());
@@ -109,10 +98,29 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModItems.COOKED_PEGASUS_MEAT.get());
 			tabData.accept(HavahsAdventureModItems.SKYROOT_FRUIT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_BUTTON.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_BUTTON.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_TRAPDOOR.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_STAIR_BLOCK.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_SLAB_BLOCK.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_BUTTON.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_TRAPDOOR.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_WOOD.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_STAIRS.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_SLABS.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_BUTTON.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.ABOVE_BRICK_BLOCK_WALL.get().asItem());
 		}
 	}
 }
