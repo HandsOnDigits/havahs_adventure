@@ -52,7 +52,14 @@
     "maxStackSize": 16,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:HavahsAdventure"
+      },
+      {
+        "value": "TRANSPORTATION"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""

@@ -62,6 +62,7 @@ public class HavahsAdventureModTabs {
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_BUTTON.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_BUTTON.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_SIGN.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -81,6 +82,7 @@ public class HavahsAdventureModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(HavahsAdventureModBlocks.LIGHT_CRYSTAL_BLOCK.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_SIGN.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(HavahsAdventureModItems.LIGHT_CRYSTAL.get());
 			tabData.accept(HavahsAdventureModItems.EYE_BANNER_PATTERN.get());

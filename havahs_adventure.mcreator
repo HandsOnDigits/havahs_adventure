@@ -2531,6 +2531,93 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "SpawnMobAsSpawnerHead",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spawn_mob_as_spawner_head",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/SpawnMobAsSpawnerHeadProcedure.java"
+        ]
+      },
+      "path": "~/Entities/SpawnerHead"
+    },
+    {
+      "name": "SpawnerHeadParticalEmitter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spawner_head_partical_emitter",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/SpawnerHeadParticalEmitterProcedure.java"
+        ]
+      },
+      "path": "~/Entities/SpawnerHead"
+    },
+    {
+      "name": "SpawnerHeadTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spawner_head_tick",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/SpawnerHeadTickProcedure.java"
+        ]
+      },
+      "path": "~/Entities/SpawnerHead"
+    },
+    {
+      "name": "ConfigProcedure",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "config_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/ConfigProcedure.java"
+        ]
+      },
+      "path": "~/Entities/SpawnerHead"
+    },
+    {
+      "name": "SpawnerHeadHunter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawner_head_hunter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/advancement/spawner_head_hunter.json"
+        ]
+      },
+      "path": "~/Entities/SpawnerHead"
+    },
+    {
+      "name": "AwardSpawnerHeadKillProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "award_spawner_head_kill_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/AwardSpawnerHeadKillProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Entities/SpawnerHead"
     }
   ],
   "variable_elements": [],
@@ -2800,7 +2887,9 @@
       "block.havahs_adventure.gray_above_wood_button": "Gray Above Wood Button",
       "block.havahs_adventure.above_block_button": "Above Block Button",
       "block.havahs_adventure.stripped_gray_above_log_henging_sign": "Stripped Gray Above Wood Henging Sign",
-      "block.havahs_adventure.gray_above_planks_sign": "Gray Above Planks Sign"
+      "block.havahs_adventure.gray_above_planks_sign": "Gray Above Planks Sign",
+      "advancements.spawner_head_hunter.title": "Spawner Head Hunter",
+      "advancements.spawner_head_hunter.descr": "You managed to kill a spawner head."
     }
   },
   "metadata": {
@@ -2875,6 +2964,10 @@
           },
           {
             "name": "Guard",
+            "children": []
+          },
+          {
+            "name": "SpawnerHead",
             "children": []
           }
         ]
