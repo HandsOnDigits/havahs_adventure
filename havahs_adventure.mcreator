@@ -2498,6 +2498,39 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksWallSignBlock.java",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks_wall_sign.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_planks_sign.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_planks_sign.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_planks_sign.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_planks_sign.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAbovePlanksSignBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAbovePlanksSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_planks_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/recipe/gray_above_planks_sign_recipe.json",
+          "src/main/resources/data/havahs_adventure/advancement/recipes/gray_above_planks_sign_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2613,6 +2646,12 @@
     ],
     "BLOCKS:minecraft:wall_hanging_signs": [
       "~CUSTOM:StrippedGrayAboveLogHengingSign.wall"
+    ],
+    "BLOCKS:minecraft:standing_signs": [
+      "~CUSTOM:GrayAbovePlanksSign"
+    ],
+    "BLOCKS:minecraft:wall_signs": [
+      "~CUSTOM:GrayAbovePlanksSign.wall"
     ]
   },
   "tab_element_order": {
@@ -2760,7 +2799,8 @@
       "block.havahs_adventure.above_brick_block_wall": "Above Brick Block Wall",
       "block.havahs_adventure.gray_above_wood_button": "Gray Above Wood Button",
       "block.havahs_adventure.above_block_button": "Above Block Button",
-      "block.havahs_adventure.stripped_gray_above_log_henging_sign": "Stripped Gray Above Wood Henging Sign"
+      "block.havahs_adventure.stripped_gray_above_log_henging_sign": "Stripped Gray Above Wood Henging Sign",
+      "block.havahs_adventure.gray_above_planks_sign": "Gray Above Planks Sign"
     }
   },
   "metadata": {

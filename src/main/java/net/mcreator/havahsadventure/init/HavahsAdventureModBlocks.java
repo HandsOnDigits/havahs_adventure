@@ -53,6 +53,8 @@ public class HavahsAdventureModBlocks {
 	public static final DeferredBlock<Block> ABOVE_BLOCK_BUTTON;
 	public static final DeferredBlock<Block> STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN;
 	public static final DeferredBlock<Block> STRIPPED_GRAY_ABOVE_LOG_HENGING_WALL_SIGN;
+	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_SIGN;
+	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_WALL_SIGN;
 	static {
 		ABOVE_BLOCK = REGISTRY.register("above_block", AboveBlockBlock::new);
 		ABOVE_BRICK_BLOCK = REGISTRY.register("above_brick_block", AboveBrickBlockBlock::new);
@@ -86,6 +88,8 @@ public class HavahsAdventureModBlocks {
 		ABOVE_BLOCK_BUTTON = REGISTRY.register("above_block_button", AboveBlockButtonBlock::new);
 		STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN = REGISTRY.register("stripped_gray_above_log_henging_sign", StrippedGrayAboveLogHengingSignBlock::new);
 		STRIPPED_GRAY_ABOVE_LOG_HENGING_WALL_SIGN = REGISTRY.register("stripped_gray_above_log_henging_wall_sign", StrippedGrayAboveLogHengingWallSignBlock::new);
+		GRAY_ABOVE_PLANKS_SIGN = REGISTRY.register("gray_above_planks_sign", GrayAbovePlanksSignBlock::new);
+		GRAY_ABOVE_PLANKS_WALL_SIGN = REGISTRY.register("gray_above_planks_wall_sign", GrayAbovePlanksWallSignBlock::new);
 	}
 
 	// Start of user code block custom blocks
@@ -95,11 +99,13 @@ public class HavahsAdventureModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			Sheets.addWoodType(HavahsAdventureModWoodTypes.STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN_WOOD_TYPE);
+			Sheets.addWoodType(HavahsAdventureModWoodTypes.GRAY_ABOVE_PLANKS_SIGN_WOOD_TYPE);
 		}
 	}
 
 	@SubscribeEvent
 	public static void registerSigns(BlockEntityTypeAddBlocksEvent event) {
 		event.modify(BlockEntityType.HANGING_SIGN, STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN.get(), STRIPPED_GRAY_ABOVE_LOG_HENGING_WALL_SIGN.get());
+		event.modify(BlockEntityType.SIGN, GRAY_ABOVE_PLANKS_SIGN.get(), GRAY_ABOVE_PLANKS_WALL_SIGN.get());
 	}
 }

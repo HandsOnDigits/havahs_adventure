@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SignItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HangingSignItem;
 import net.minecraft.world.item.DoubleHighBlockItem;
@@ -61,6 +62,7 @@ public class HavahsAdventureModItems {
 	public static final DeferredItem<Item> GRAY_ABOVE_WOOD_BUTTON;
 	public static final DeferredItem<Item> ABOVE_BLOCK_BUTTON;
 	public static final DeferredItem<Item> STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN;
+	public static final DeferredItem<Item> GRAY_ABOVE_PLANKS_SIGN;
 	static {
 		ABOVE_BLOCK = block(HavahsAdventureModBlocks.ABOVE_BLOCK, new Item.Properties().fireResistant());
 		FINEL_KEY = REGISTRY.register("finel_key", FinelKeyItem::new);
@@ -104,6 +106,7 @@ public class HavahsAdventureModItems {
 		GRAY_ABOVE_WOOD_BUTTON = block(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_BUTTON);
 		ABOVE_BLOCK_BUTTON = block(HavahsAdventureModBlocks.ABOVE_BLOCK_BUTTON);
 		STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN = hangingSignBlock(HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG_HENGING_SIGN, HavahsAdventureModBlocks.STRIPPED_GRAY_ABOVE_LOG_HENGING_WALL_SIGN, new Item.Properties().stacksTo(16));
+		GRAY_ABOVE_PLANKS_SIGN = signBlock(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_SIGN, HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_WALL_SIGN, new Item.Properties().stacksTo(16));
 	}
 
 	// Start of user code block custom items
@@ -122,6 +125,14 @@ public class HavahsAdventureModItems {
 
 	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), properties));
+	}
+
+	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
+		return signBlock(block, wallBlock, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new SignItem(properties, block.get(), wallBlock.get()));
 	}
 
 	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
