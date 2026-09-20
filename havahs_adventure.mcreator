@@ -2757,6 +2757,61 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "AboveSky",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_sky",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "skyRenderEvent",
+            "type": "skyRenderEvent"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/AboveSkyProcedure.java"
+        ]
+      },
+      "path": "~/Dimensions/Above"
+    },
+    {
+      "name": "AboveFog",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_fog",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "fogRenderEvent",
+            "type": "fogRenderEvent"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/AboveFogProcedure.java"
+        ]
+      },
+      "path": "~/Dimensions/Above"
+    },
+    {
+      "name": "ClearVoidDimension",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clear_void_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/mixin/ClearVoidDimensionMixin.java"
+        ]
+      },
+      "path": "~/Dimensions"
     }
   ],
   "variable_elements": [],
@@ -3062,6 +3117,7 @@
       "src/main/java/net/mcreator/havahsadventure/init/HavahsAdventureModTabs.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/havahsadventure/init/HavahsAdventureModSounds.java",
+      "src/main/resources/havahs_adventure.mixins.json",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/havahs_adventure/sounds.json",
