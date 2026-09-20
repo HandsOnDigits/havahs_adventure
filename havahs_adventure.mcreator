@@ -2611,7 +2611,6 @@
       "registry_name": "gray_above_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_leaves.json",
           "src/main/resources/assets/havahs_adventure/blockstates/gray_above_leaves.json",
           "src/main/resources/assets/havahs_adventure/models/block/gray_above_leaves.json",
           "src/main/java/net/mcreator/havahsadventure/block/GrayAboveLeavesBlock.java",
@@ -2681,6 +2680,83 @@
         ]
       },
       "path": "~/Dimensions/Above"
+    },
+    {
+      "name": "GrayAboveLeavesLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_leaves.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAboveLeavesAdditionalHarvestCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_leaves_additional_harvest_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/procedures/GrayAboveLeavesAdditionalHarvestConditionProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "PottedGrayAboveSapling",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potted_gray_above_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/block/PottedGrayAboveSaplingBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/potted_gray_above_sapling.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/potted_gray_above_sapling.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "PottedGrayAboveSaplingLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potted_gray_above_sapling_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/potted_gray_above_sapling.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2757,6 +2833,7 @@
       "~CUSTOM:GrayAbovePlanksDoor"
     ],
     "BLOCKS:minecraft:flower_pots": [
+      "~CUSTOM:PottedGrayAboveSapling",
       "~CUSTOM:PottedLightSpiral"
     ],
     "ITEMS:mod:gray_above_logs": [
@@ -2803,6 +2880,9 @@
     ],
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:GrayAboveTree"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:GrayAboveLeaves"
     ]
   },
   "tab_element_order": {
@@ -2960,7 +3040,8 @@
       "advancements.spawner_head_hunter.title": "Spawner Head Hunter",
       "advancements.spawner_head_hunter.descr": "You managed to kill a spawner head.",
       "block.havahs_adventure.gray_above_leaves": "Gray Above Leaves",
-      "block.havahs_adventure.gray_above_tree": "Gray Above Tree"
+      "block.havahs_adventure.gray_above_tree": "Gray Above Tree",
+      "block.havahs_adventure.potted_gray_above_sapling": "Potted Gray Above Sapling"
     }
   },
   "metadata": {

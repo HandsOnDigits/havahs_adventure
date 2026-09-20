@@ -119,5 +119,6 @@
   "advancements.spawner_head_hunter.title": "Spawner Head Hunter",
   "advancements.spawner_head_hunter.descr": "You managed to kill a spawner head.",
   "block.havahs_adventure.gray_above_leaves": "Gray Above Leaves",
-  "block.havahs_adventure.gray_above_tree": "Gray Above Tree"
+  "block.havahs_adventure.gray_above_tree": "Gray Above Tree",
+  "block.havahs_adventure.potted_gray_above_sapling": "Potted Gray Above Sapling"
 }

@@ -57,6 +57,7 @@ public class HavahsAdventureModBlocks {
 	public static final DeferredBlock<Block> GRAY_ABOVE_PLANKS_WALL_SIGN;
 	public static final DeferredBlock<Block> GRAY_ABOVE_LEAVES;
 	public static final DeferredBlock<Block> GRAY_ABOVE_TREE;
+	public static final DeferredBlock<Block> POTTED_GRAY_ABOVE_SAPLING;
 	static {
 		ABOVE_BLOCK = REGISTRY.register("above_block", AboveBlockBlock::new);
 		ABOVE_BRICK_BLOCK = REGISTRY.register("above_brick_block", AboveBrickBlockBlock::new);
@@ -94,6 +95,7 @@ public class HavahsAdventureModBlocks {
 		GRAY_ABOVE_PLANKS_WALL_SIGN = REGISTRY.register("gray_above_planks_wall_sign", GrayAbovePlanksWallSignBlock::new);
 		GRAY_ABOVE_LEAVES = REGISTRY.register("gray_above_leaves", GrayAboveLeavesBlock::new);
 		GRAY_ABOVE_TREE = REGISTRY.register("gray_above_tree", GrayAboveTreeBlock::new);
+		POTTED_GRAY_ABOVE_SAPLING = REGISTRY.register("potted_gray_above_sapling", PottedGrayAboveSaplingBlock::new);
 	}
 
 	// Start of user code block custom blocks
