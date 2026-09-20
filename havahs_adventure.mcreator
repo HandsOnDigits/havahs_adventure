@@ -1357,22 +1357,6 @@
       "path": "~/Dimensions/Above"
     },
     {
-      "name": "AboveFountains",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "above_fountains",
-      "metadata": {
-        "has_nbt_structure": true,
-        "files": [
-          "src/main/resources/data/havahs_adventure/worldgen/configured_feature/above_fountains.json",
-          "src/main/resources/data/havahs_adventure/neoforge/biome_modifier/above_fountains_biome_modifier.json",
-          "src/main/resources/data/havahs_adventure/worldgen/placed_feature/above_fountains.json"
-        ]
-      },
-      "path": "~/Dimensions/Above"
-    },
-    {
       "name": "RuinedAbovePortalLoot",
       "type": "loottable",
       "compiles": true,
@@ -2682,6 +2666,21 @@
         ]
       },
       "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "AboveFountain",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_fountain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/worldgen/structure_set/above_fountain.json",
+          "src/main/resources/data/havahs_adventure/worldgen/structure/above_fountain.json",
+          "src/main/resources/data/havahs_adventure/worldgen/template_pool/above_fountain.json"
+        ]
+      },
+      "path": "~/Dimensions/Above"
     }
   ],
   "variable_elements": [],
@@ -2704,7 +2703,6 @@
       "~CUSTOM:GrayAbovePlanksSlabs",
       "~CUSTOM:AboveBrickSlabBlock"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:AboveBrickBlockWall",
       "~CUSTOM:AboveBrickSlabBlock",

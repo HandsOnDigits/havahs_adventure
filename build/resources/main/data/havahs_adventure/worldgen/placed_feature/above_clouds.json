@@ -2,8 +2,12 @@
   "feature": "havahs_adventure:above_clouds",
   "placement": [
     {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    },
+    {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 2,
+      "noise_to_count_ratio": 4,
       "noise_factor": 200
     },
     {
@@ -23,25 +27,7 @@
             "data": {
               "type": "minecraft:constant",
               "value": {
-                "absolute": 32
-              }
-            },
-            "weight": 1
-          },
-          {
-            "data": {
-              "type": "minecraft:constant",
-              "value": {
-                "absolute": 76
-              }
-            },
-            "weight": 1
-          },
-          {
-            "data": {
-              "type": "minecraft:constant",
-              "value": {
-                "absolute": 108
+                "absolute": 96
               }
             },
             "weight": 1
@@ -51,6 +37,24 @@
               "type": "minecraft:constant",
               "value": {
                 "absolute": 140
+              }
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 172
+              }
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "minecraft:constant",
+              "value": {
+                "absolute": 204
               }
             },
             "weight": 1
