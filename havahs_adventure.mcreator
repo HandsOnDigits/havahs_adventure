@@ -259,7 +259,7 @@
       "name": "Above",
       "type": "dimension",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "above",
       "metadata": {
         "files": [
@@ -2618,6 +2618,70 @@
         ]
       },
       "path": "~/Entities/SpawnerHead"
+    },
+    {
+      "name": "GrayAboveLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_leaves.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_leaves.json",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_leaves.json",
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAboveLeavesBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_leaves.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "SingleGrayAboveTrees",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "single_gray_above_trees",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/worldgen/placed_feature/single_gray_above_trees.json",
+          "src/main/resources/data/havahs_adventure/neoforge/biome_modifier/single_gray_above_trees_biome_modifier.json",
+          "src/main/resources/data/havahs_adventure/worldgen/configured_feature/single_gray_above_trees.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "GrayAboveTree",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_above_tree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/havahsadventure/block/GrayAboveTreeBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/gray_above_tree.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/gray_above_tree.json",
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/gray_above_tree.json",
+          "src/main/resources/assets/havahs_adventure/models/item/gray_above_tree.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
+    },
+    {
+      "name": "TwoByTwoGrayAboveTrees",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_by_two_gray_above_trees",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/worldgen/placed_feature/two_by_two_gray_above_trees.json",
+          "src/main/resources/data/havahs_adventure/neoforge/biome_modifier/two_by_two_gray_above_trees_biome_modifier.json",
+          "src/main/resources/data/havahs_adventure/worldgen/configured_feature/two_by_two_gray_above_trees.json"
+        ]
+      },
+      "path": "~/Blocks/Plants/Trees"
     }
   ],
   "variable_elements": [],
@@ -2640,11 +2704,7 @@
       "~CUSTOM:GrayAbovePlanksSlabs",
       "~CUSTOM:AboveBrickSlabBlock"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:AboveGrassBlock",
-      "~CUSTOM:AboveBlock",
-      "~CUSTOM:AboveDirt"
-    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:AboveBrickBlockWall",
       "~CUSTOM:AboveBrickSlabBlock",
@@ -2739,6 +2799,12 @@
     ],
     "BLOCKS:minecraft:wall_signs": [
       "~CUSTOM:GrayAbovePlanksSign.wall"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:GrayAboveLeaves"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:GrayAboveTree"
     ]
   },
   "tab_element_order": {
@@ -2767,6 +2833,11 @@
       "GrayAboveWoodButton",
       "GrayAbovePlanksPressurePlate",
       "AboveBrickBlockWall"
+    ],
+    "TRANSPORTATION": [
+      "LightCrystalBlock",
+      "GrayAbovePlanksSign",
+      "StrippedGrayAboveLogHengingSign"
     ]
   },
   "language_map": {
@@ -2889,7 +2960,9 @@
       "block.havahs_adventure.stripped_gray_above_log_henging_sign": "Stripped Gray Above Wood Henging Sign",
       "block.havahs_adventure.gray_above_planks_sign": "Gray Above Planks Sign",
       "advancements.spawner_head_hunter.title": "Spawner Head Hunter",
-      "advancements.spawner_head_hunter.descr": "You managed to kill a spawner head."
+      "advancements.spawner_head_hunter.descr": "You managed to kill a spawner head.",
+      "block.havahs_adventure.gray_above_leaves": "Gray Above Leaves",
+      "block.havahs_adventure.gray_above_tree": "Gray Above Tree"
     }
   },
   "metadata": {

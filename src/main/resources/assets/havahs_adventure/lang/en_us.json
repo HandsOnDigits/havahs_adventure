@@ -117,5 +117,7 @@
   "block.havahs_adventure.stripped_gray_above_log_henging_sign": "Stripped Gray Above Wood Henging Sign",
   "block.havahs_adventure.gray_above_planks_sign": "Gray Above Planks Sign",
   "advancements.spawner_head_hunter.title": "Spawner Head Hunter",
-  "advancements.spawner_head_hunter.descr": "You managed to kill a spawner head."
+  "advancements.spawner_head_hunter.descr": "You managed to kill a spawner head.",
+  "block.havahs_adventure.gray_above_leaves": "Gray Above Leaves",
+  "block.havahs_adventure.gray_above_tree": "Gray Above Tree"
 }

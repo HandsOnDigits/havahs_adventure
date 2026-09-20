@@ -1,8 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "havahs_adventure:above_dirt",
-    "havahs_adventure:above_block",
-    "havahs_adventure:above_grass_block"
-  ]
+  "values": []
 }

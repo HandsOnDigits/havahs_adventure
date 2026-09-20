@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "havahs_adventure:small_land_area",
+  "features": "havahs_adventure:two_by_two_gray_above_trees",
+  "step": "surface_structures"
+}

@@ -204,4 +204,27 @@ public class ConfigProcedure {
 			this.weight = weight;
 		}
 	}
+
+	public static boolean isSupportedMob(String entityId) {
+	    ensureInitialized();
+	
+	    if (cachedFileContent.isEmpty() || entityId == null) {
+	        return false;
+	    }
+	
+	    try {
+	        Pattern entryPattern = Pattern.compile("\"id\"\\s*:\\s*\"([^\"]+)\"", Pattern.DOTALL);
+	        Matcher entryMatcher = entryPattern.matcher(cachedFileContent);
+	
+	        while (entryMatcher.find()) {
+	            if (entryMatcher.group(1).equalsIgnoreCase(entityId)) {
+	                return true;
+	            }
+	        }
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	
+	    return false;
+	}
 }

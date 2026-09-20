@@ -1,0 +1,24 @@
+{
+  "feature": "havahs_adventure:two_by_two_gray_above_trees",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "havahs_adventure:skyroot"
+        }
+      }
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    },
+    {
+      "type": "minecraft:surface_relative_threshold_filter",
+      "heightmap": "OCEAN_FLOOR_WG",
+      "min_inclusive": -8,
+      "max_inclusive": 8
+    }
+  ]
+}

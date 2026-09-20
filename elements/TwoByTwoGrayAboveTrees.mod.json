@@ -1,0 +1,14 @@
+{
+  "_fv": 85,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SmallLandArea"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"-307\" y=\"12\"><value name=\"feature\"><block type=\"feature_tree_simple\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"type\">dark oak</field><field name=\"base_height\">8</field><field name=\"height_variation_a\">4</field><field name=\"height_variation_b\">2</field><field name=\"force_dirt\">FALSE</field><field name=\"ignore_vines\">TRUE</field><value name=\"dirt\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:AboveDirt</field></block></value><value name=\"trunk\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:GrayAboveLog</field></block></value><value name=\"foliage\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:GrayAboveLeaves</field></block></value><value name=\"root_placer\"><block type=\"root_placer_none\"></block></value></block></value><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:Skyroot</field></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">10</field><next><block type=\"placement_surface_relative_threshold\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field><field name=\"min\">-8</field><field name=\"max\">8</field></block></next></block></next></block></next></block></xml>"
+  }
+}

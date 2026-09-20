@@ -2,15 +2,15 @@
   "_fv": 85,
   "_type": "block",
   "definition": {
-    "texture": "gray_above_log_sides",
-    "textureTop": "gray_above_log_top",
-    "textureLeft": "gray_above_log_sides",
-    "textureFront": "gray_above_log_sides",
-    "textureRight": "gray_above_log_sides",
-    "textureBack": "gray_above_log_sides",
+    "texture": "gray_above_leaves",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
-    "rotationMode": 5,
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -18,13 +18,14 @@
     "animations": [],
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Leaves",
     "blockSetType": "OAK",
-    "leavesParticleChance": 0.0,
+    "leavesParticleChance": 0.01,
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -38,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Gray Above Log",
+    "name": "Gray Above Leaves",
     "specialInformation": {
       "fixedValue": []
     },
@@ -53,9 +54,12 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:HavahsAdventure"
+      },
+      {
+        "value": "DECORATIONS"
       }
     ],
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -69,7 +73,7 @@
     "canRedstoneConnect": false,
     "hasCustomOpacity": false,
     "lightOpacity": 15,
-    "tickRate": 20,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -77,27 +81,27 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "bass",
+    "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "strippingResult": {
-      "value": "CUSTOM:StrippedGrayAboveWood"
+      "value": ""
     },
     "ignitedByLava": true,
-    "flammability": 5,
-    "fireSpreadSpeed": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "AZALEA_LEAVES"
     },
     "breakSound": {
       "value": ""
