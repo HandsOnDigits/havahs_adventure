@@ -1577,7 +1577,7 @@
           "src/main/resources/data/havahs_adventure/worldgen/placed_feature/grown_skyroot.json"
         ]
       },
-      "path": "~/Dimensions/Above"
+      "path": "~/Blocks/Plants"
     },
     {
       "name": "LightSpiral",

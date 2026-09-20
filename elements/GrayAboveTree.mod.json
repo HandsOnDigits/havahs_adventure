@@ -12,7 +12,7 @@
     "plantType": "sapling",
     "suspiciousStewEffect": "SATURATION",
     "suspiciousStewDuration": 0,
-    "secondaryTreeChance": 0.1,
+    "secondaryTreeChance": 0.0,
     "trees": [
       {
         "value": "CUSTOM:SingleGrayAboveTrees"

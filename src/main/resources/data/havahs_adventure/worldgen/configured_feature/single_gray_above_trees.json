@@ -19,7 +19,7 @@
         "Name": "havahs_adventure:gray_above_log"
       }
     },
-    "force_dirt": false,
+    "force_dirt": true,
     "ignore_vines": true,
     "foliage_placer": {
       "type": "minecraft:cherry_foliage_placer",
