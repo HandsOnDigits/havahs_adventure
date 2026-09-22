@@ -2812,6 +2812,38 @@
         ]
       },
       "path": "~/Dimensions"
+    },
+    {
+      "name": "AboveBlockPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_block_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/loot_table/blocks/above_block_pressure_plate.json",
+          "src/main/resources/assets/havahs_adventure/models/item/above_block_pressure_plate.json",
+          "src/main/resources/assets/havahs_adventure/blockstates/above_block_pressure_plate.json",
+          "src/main/java/net/mcreator/havahsadventure/block/AboveBlockPressurePlateBlock.java",
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_pressure_plate.json",
+          "src/main/resources/assets/havahs_adventure/models/block/above_block_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AboveBlockPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "above_block_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/havahs_adventure/advancement/recipes/above_block_pressure_plate_recipe.json",
+          "src/main/resources/data/havahs_adventure/recipe/above_block_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -2938,6 +2970,9 @@
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:GrayAboveLeaves"
+    ],
+    "BLOCKS:minecraft:pressure_plates": [
+      "~CUSTOM:AboveBlockPressurePlate"
     ]
   },
   "tab_element_order": {
@@ -2945,6 +2980,7 @@
       "GrayAboveWoodButton",
       "AboveBlockButton",
       "GrayAbovePlanksPressurePlate",
+      "AboveBlockPressurePlate",
       "GrayAbovePlanksDoor",
       "GrayAbovePlanksFenceGate",
       "GrayAboveTrapdoor"
@@ -3096,7 +3132,8 @@
       "advancements.spawner_head_hunter.descr": "You managed to kill a spawner head.",
       "block.havahs_adventure.gray_above_leaves": "Gray Above Leaves",
       "block.havahs_adventure.gray_above_tree": "Gray Above Tree",
-      "block.havahs_adventure.potted_gray_above_sapling": "Potted Gray Above Sapling"
+      "block.havahs_adventure.potted_gray_above_sapling": "Potted Gray Above Sapling",
+      "block.havahs_adventure.above_block_pressure_plate": "Above Block Pressure Plate"
     }
   },
   "metadata": {

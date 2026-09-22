@@ -65,6 +65,7 @@ public class HavahsAdventureModTabs {
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_SIGN.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_LEAVES.get().asItem());
 				tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_TREE.get().asItem());
+				tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_PRESSURE_PLATE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -102,6 +103,7 @@ public class HavahsAdventureModTabs {
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_BUTTON.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_BUTTON.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_PRESSURE_PLATE.get().asItem());
+			tabData.accept(HavahsAdventureModBlocks.ABOVE_BLOCK_PRESSURE_PLATE.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_DOOR.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_PLANKS_FENCE_GATE.get().asItem());
 			tabData.accept(HavahsAdventureModBlocks.GRAY_ABOVE_WOOD_TRAPDOOR.get().asItem());

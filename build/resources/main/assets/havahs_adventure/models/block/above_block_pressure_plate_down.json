@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "havahs_adventure:block/above_block",
+    "particle": "havahs_adventure:block/above_block"
+  },
+  "render_type": "solid"
+}
