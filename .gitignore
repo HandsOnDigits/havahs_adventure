@@ -3,6 +3,7 @@ gradlew
 *.mcreator-backup_*
 .mcreator/userSettings
 .mcreator/localHistory/*
+.mcreator/fullBackups/*
 
 # Binary filter
 
