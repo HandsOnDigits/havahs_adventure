@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "havahs_adventure:block/light_crystal_blcok",
-    "particle": "havahs_adventure:block/light_crystal_blcok"
-  },
-  "render_type": "solid"
-}

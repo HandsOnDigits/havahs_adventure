@@ -1,8 +1,0 @@
-{
-  "parent": "block/flower_pot_cross",
-  "textures": {
-    "plant": "havahs_adventure:block/gray_above_sapling",
-    "particle": "havahs_adventure:block/gray_above_sapling"
-  },
-  "render_type": "cutout"
-}

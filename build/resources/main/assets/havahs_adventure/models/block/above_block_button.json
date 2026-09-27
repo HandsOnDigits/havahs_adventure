@@ -1,8 +1,0 @@
-{
-  "parent": "block/button",
-  "textures": {
-    "texture": "havahs_adventure:block/above_block",
-    "particle": "havahs_adventure:block/above_block"
-  },
-  "render_type": "solid"
-}
