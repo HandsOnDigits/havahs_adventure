@@ -18,6 +18,7 @@ gradle/*
 run/*
 build/*
 build/*/*
+build/*/*/*
 !build/resources
 .eclipse/*
 havahs_adventure/.mcreator
