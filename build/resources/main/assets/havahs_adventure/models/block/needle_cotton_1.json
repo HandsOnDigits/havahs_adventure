@@ -1,8 +1,0 @@
-{
-  "parent": "block/crop",
-  "textures": {
-    "crop": "havahs_adventure:block/needle_cotton_1",
-    "particle": "havahs_adventure:block/needle_cotton_0"
-  },
-  "render_type": "cutout"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_side",
-  "textures": {
-    "wall": "havahs_adventure:block/above_brick_block",
-    "particle": "havahs_adventure:block/above_brick_block"
-  },
-  "render_type": "solid"
-}

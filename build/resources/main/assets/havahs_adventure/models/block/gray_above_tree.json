@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "havahs_adventure:block/gray_above_sapling",
-    "particle": "havahs_adventure:block/gray_above_sapling"
-  },
-  "render_type": "cutout"
-}

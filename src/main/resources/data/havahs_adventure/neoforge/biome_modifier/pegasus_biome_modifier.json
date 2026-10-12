@@ -1,8 +1,6 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": {
-    "type": "neoforge:any"
-  },
+  "biomes": "havahs_adventure:above_biome",
   "spawners": {
     "type": "havahs_adventure:pegasus",
     "weight": 20,

@@ -23,7 +23,7 @@ description="Add more Adventure!"
 [[dependencies.havahs_adventure]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.190,)"
+    versionRange="[21.1.232,)"
     ordering="AFTER"
     side="BOTH"
 
@@ -35,6 +35,12 @@ description="Add more Adventure!"
     side="BOTH"
 
 
+[[dependencies.havahs_adventure]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
