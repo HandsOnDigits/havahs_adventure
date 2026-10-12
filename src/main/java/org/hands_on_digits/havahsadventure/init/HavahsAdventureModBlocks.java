@@ -68,7 +68,7 @@ public class HavahsAdventureModBlocks {
 		ABOVE_PORTAL = REGISTRY.register("above_portal", AbovePortalBlock::new);
 		SOFT_ABOVE_BLOCK = REGISTRY.register("soft_above_block", SoftAboveBlockBlock::new);
 		ABOVE_SAND = REGISTRY.register("above_sand", AboveSandBlock::new);
-		ABOVE_GRASS_BLOCK = REGISTRY.register("above_grass_block", AboveGrassBlockBlock::new);
+		ABOVE_GRASS_BLOCK = REGISTRY.register("above_grass_block", () -> new AboveGrassBlockBlock());
 		ABOVE_DIRT = REGISTRY.register("above_dirt", AboveDirtBlock::new);
 		SKYROOT = REGISTRY.register("skyroot", SkyrootBlock::new);
 		LIGHT_SPIRAL = REGISTRY.register("light_spiral", LightSpiralBlock::new);
