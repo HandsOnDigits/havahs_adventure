@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "org.hands_on_digits.havahsadventure.mixin",
+  "package": "org.hands_on_digits.havahs_adventure.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ClearVoidDimensionMixin"
